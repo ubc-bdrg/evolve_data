@@ -1,0 +1,341 @@
+{'id': '@MMU-MEL-2100-1-M1', 'dis': 'HRV_N_and_more', 'energy': 'True', 'kind': 'Number', 'panel': 'N1', 'receptacles': 'True', 'total': 'True', 'unit': 'kilowatt_hour'}
+{'id': '@MMU-MEL-2100-1-M2', 'dis': 'HRV_S_and_more', 'energy': 'True', 'kind': 'Number', 'panel': 'S1', 'receptacles': 'True', 'total': 'True', 'unit': 'kilowatt_hour'}
+{'id': '@MMU-MEL-2100-1-M3', 'dis': 'lighting_load_total', 'energy': 'True', 'kind': 'Number', 'lighting': 'True', 'panel': 'L0', 'total': 'True', 'unit': 'kilowatt_hour'}
+{'id': '@MMU-MEL-2100-1-M4', 'dis': 'mech_room_load_total', 'energy': 'True', 'kind': 'Number', 'mech': 'True', 'panel': 'HM', 'total': 'True', 'unit': 'kilowatt_hour'}
+{'id': '@MMU-MEL-2100-1-M5', 'dis': 'ancillary_AC_and_misc_load', 'energy': 'True', 'house-load': 'True', 'kind': 'Number', 'panel': 'HP', 'total': 'True', 'unit': 'kilowatt_hour'}
+{'id': '@MMU-MEL-2100-1-M6', 'dis': 'ev_charging_total_load', 'energy': 'True', 'ev-charging': 'True', 'kind': 'Number', 'panel': 'HEV', 'total': 'True', 'unit': 'kilowatt_hour'}
+{'id': '@MMU-MEL-2100-2-M1', 'dis': 'elevator_1', 'energy': 'True', 'kind': 'Number', 'unit': 'kilowatt_hour', 'verticalTransport': 'True'}
+{'id': '@MMU-MEL-2100-2-M2', 'dis': 'elevator_2', 'energy': 'True', 'kind': 'Number', 'unit': 'kilowatt_hour', 'verticalTransport': 'True'}
+{'id': '@MMU-MEL-2100-2-M3', 'dis': 'fire_alarm_load', 'alarm': 'True', 'energy': 'True', 'fire': 'True', 'unit': 'kilowatt_hour'}
+{'id': '@MMU-MEL-2100-2-M4', 'dis': 'lighting_load_levels_1_to_6', 'energy': 'True', 'kind': 'Number', 'lighting': 'True', 'submetered': 'True', 'total': 'True', 'unit': 'kilowatt_hour'}
+{'id': '@MMU-MEL-ACCII-PV-Export-15-minutely', 'dis': 'PV_export', 'energy': 'True', 'export': 'True', 'kind': 'Number', 'photovoltaic': 'True', 'unit': 'kilowatt_hour'}
+{'id': '@MMU-MEL-ACCII-PV-Import-15-minutely', 'dis': 'PV_import', 'energy': 'True', 'import': 'True', 'kind': 'Number', 'photovoltaic': 'True', 'unit': 'kilowatt_hour'}
+{'id': '@MMU-MRM-2100-3-M1', 'dis': 'condensing_unit_1_load', 'energy': 'True', 'equipRef': '@CU_1', 'kind': 'Number', 'unit': 'watt_hour'}
+{'id': '@MMU-MRM-2100-3-M2', 'dis': 'condensing_unit_2_load', 'energy': 'True', 'equipRef': '@CU_2', 'kind': 'Number', 'unit': 'watt_hour'}
+{'id': '@MMU-MRM-2100-3-M3', 'dis': 'pump_1_load', 'energy': 'True', 'equipRef': '@BCR8_pump_1', 'kind': 'Number', 'unit': 'watt_hour'}
+{'id': '@MMU-MRM-2100-3-M4', 'dis': 'pumps_2_and_3_load', 'energy': 'True', 'equipRef': '@BCR8_pump_23', 'kind': 'Number', 'unit': 'watt_hour'}
+{'id': '@MMU-MRM-2100-3-M5', 'dis': 'hydrokits_load', 'energy': 'True', 'equipRef': '@BCR8_hydrokits', 'kind': 'Number', 'unit': 'watt_hour'}
+{'id': '@MMU-MRM-2100-3-M6', 'dis': 'hydrokits_load', 'energy': 'True', 'equipRef': '@BCR8_hydrokits', 'kind': 'Number', 'unit': 'watt_hour'}
+{'id': '@MMU-N6-M1', 'enerpro-point': 'True', 'energy': 'True', 'equipRef': '@BCR8_HRV_N', 'kind': 'Number', 'unit': 'watt_hour', 'dis': 'HRV_ventilation'}
+{'id': '@MMU-N6-M2', 'enerpro-point': 'True', 'energy': 'True', 'equipRef': '@CU_8', 'kind': 'Number', 'unit': 'watt_hour', 'dis': 'condenser_ventilation'}
+{'id': '@024590d55c_baseboard_heater_energy', 'enerpro-point': 'True', 'energy': 'True', 'elecHeating': 'True', 'heat': 'True', 'kind': 'Number', 'unit': 'watt_hour', 'baseboard-heater': 'True'}
+{'id': '@024590d55c_energy', 'enerpro-point': 'True', 'energy': 'True', 'total': 'True', 'kind': 'Number', 'unit': 'watt_hour'}
+{'id': '@b15971ccf8_energy', 'enerpro-point': 'True', 'energy': 'True', 'total': 'True', 'kind': 'Number', 'unit': 'watt_hour'}
+{'id': '@dfd1837450_baseboard_heater_energy', 'enerpro-point': 'True', 'energy': 'True', 'elecHeating': 'True', 'heat': 'True', 'kind': 'Number', 'unit': 'watt_hour', 'baseboard-heater': 'True'}
+{'id': '@dfd1837450_energy', 'enerpro-point': 'True', 'energy': 'True', 'total': 'True', 'kind': 'Number', 'unit': 'watt_hour'}
+{'id': '@1d494e7421_energy', 'enerpro-point': 'True', 'energy': 'True', 'total': 'True', 'kind': 'Number', 'unit': 'watt_hour'}
+{'id': '@db30336ee8_baseboard_heater_energy', 'enerpro-point': 'True', 'energy': 'True', 'elecHeating': 'True', 'heat': 'True', 'kind': 'Number', 'unit': 'watt_hour', 'baseboard-heater': 'True'}
+{'id': '@db30336ee8_energy', 'enerpro-point': 'True', 'energy': 'True', 'total': 'True', 'kind': 'Number', 'unit': 'watt_hour'}
+{'id': '@894d6410f6_energy', 'enerpro-point': 'True', 'energy': 'True', 'total': 'True', 'kind': 'Number', 'unit': 'watt_hour'}
+{'id': '@fb7f42f9c6_energy', 'enerpro-point': 'True', 'energy': 'True', 'total': 'True', 'kind': 'Number', 'unit': 'watt_hour'}
+{'id': '@a199275171_baseboard_heater_energy', 'enerpro-point': 'True', 'energy': 'True', 'elecHeating': 'True', 'heat': 'True', 'kind': 'Number', 'unit': 'watt_hour', 'baseboard-heater': 'True'}
+{'id': '@a199275171_energy', 'enerpro-point': 'True', 'energy': 'True', 'total': 'True', 'kind': 'Number', 'unit': 'watt_hour'}
+{'id': '@ca5dd537d6_baseboard_heater_energy', 'enerpro-point': 'True', 'energy': 'True', 'elecHeating': 'True', 'heat': 'True', 'kind': 'Number', 'unit': 'watt_hour', 'baseboard-heater': 'True'}
+{'id': '@ca5dd537d6_energy', 'enerpro-point': 'True', 'energy': 'True', 'total': 'True', 'kind': 'Number', 'unit': 'watt_hour'}
+{'id': '@d8d0f2d4f5_baseboard_heater_energy', 'enerpro-point': 'True', 'energy': 'True', 'elecHeating': 'True', 'heat': 'True', 'kind': 'Number', 'unit': 'watt_hour', 'baseboard-heater': 'True'}
+{'id': '@d8d0f2d4f5_energy', 'enerpro-point': 'True', 'energy': 'True', 'total': 'True', 'kind': 'Number', 'unit': 'watt_hour'}
+{'id': '@27610b1b9b_baseboard_heater_energy', 'enerpro-point': 'True', 'energy': 'True', 'elecHeating': 'True', 'heat': 'True', 'kind': 'Number', 'unit': 'watt_hour', 'baseboard-heater': 'True'}
+{'id': '@27610b1b9b_energy', 'enerpro-point': 'True', 'energy': 'True', 'total': 'True', 'kind': 'Number', 'unit': 'watt_hour'}
+{'id': '@7ae7320c13_baseboard_heater_energy', 'enerpro-point': 'True', 'energy': 'True', 'elecHeating': 'True', 'heat': 'True', 'kind': 'Number', 'unit': 'watt_hour', 'baseboard-heater': 'True'}
+{'id': '@7ae7320c13_energy', 'enerpro-point': 'True', 'energy': 'True', 'total': 'True', 'kind': 'Number', 'unit': 'watt_hour'}
+{'id': '@0ae0db5546_energy', 'enerpro-point': 'True', 'energy': 'True', 'lighting': 'True', 'kind': 'Number', 'unit': 'watt_hour'}
+{'id': '@0ae0db5546_baseboard_heater_energy', 'enerpro-point': 'True', 'energy': 'True', 'elecHeating': 'True', 'heat': 'True', 'kind': 'Number', 'unit': 'watt_hour', 'baseboard-heater': 'True'}
+{'id': '@0ae0db5546_receptacles_energy', 'enerpro-point': 'True', 'energy': 'True', 'kind': 'Number', 'unit': 'watt_hour', 'receptacles': 'True'}
+{'id': '@0ae0db5546_appliances_energy', 'enerpro-point': 'True', 'energy': 'True', 'kind': 'Number', 'unit': 'watt_hour', 'appliances': 'True'}
+{'id': '@MMU-S6-M1', 'enerpro-point': 'True', 'energy': 'True', 'equipRef': '@BCR8_HRV_S', 'kind': 'Number', 'unit': 'watt_hour', 'dis': 'HRV_ventilation'}
+{'id': '@MMU-S6-M2', 'enerpro-point': 'True', 'energy': 'True', 'equipRef': '@CU_9', 'kind': 'Number', 'unit': 'watt_hour', 'dis': 'condenser_ventilation'}
+{'id': '@44e4715699_baseboard_heater_energy', 'enerpro-point': 'True', 'energy': 'True', 'elecHeating': 'True', 'heat': 'True', 'kind': 'Number', 'unit': 'watt_hour', 'baseboard-heater': 'True'}
+{'id': '@44e4715699_energy', 'enerpro-point': 'True', 'energy': 'True', 'total': 'True', 'kind': 'Number', 'unit': 'watt_hour'}
+{'id': '@825c03c7d2_baseboard_heater_energy', 'enerpro-point': 'True', 'energy': 'True', 'elecHeating': 'True', 'heat': 'True', 'kind': 'Number', 'unit': 'watt_hour', 'baseboard-heater': 'True'}
+{'id': '@825c03c7d2_energy', 'enerpro-point': 'True', 'energy': 'True', 'total': 'True', 'kind': 'Number', 'unit': 'watt_hour'}
+{'id': '@01236b7618_energy', 'enerpro-point': 'True', 'energy': 'True', 'total': 'True', 'kind': 'Number', 'unit': 'watt_hour'}
+{'id': '@8a227e1ea1_energy', 'enerpro-point': 'True', 'energy': 'True', 'total': 'True', 'kind': 'Number', 'unit': 'watt_hour'}
+{'id': '@1f720bdc4b_energy', 'enerpro-point': 'True', 'energy': 'True', 'total': 'True', 'kind': 'Number', 'unit': 'watt_hour'}
+{'id': '@c3587a4a37_baseboard_heater_energy', 'enerpro-point': 'True', 'energy': 'True', 'elecHeating': 'True', 'heat': 'True', 'kind': 'Number', 'unit': 'watt_hour', 'baseboard-heater': 'True'}
+{'id': '@c3587a4a37_energy', 'enerpro-point': 'True', 'energy': 'True', 'total': 'True', 'kind': 'Number', 'unit': 'watt_hour'}
+{'id': '@d2cbc0aed8_energy', 'enerpro-point': 'True', 'energy': 'True', 'total': 'True', 'kind': 'Number', 'unit': 'watt_hour'}
+{'id': '@6497b830e9_baseboard_heater_energy', 'enerpro-point': 'True', 'energy': 'True', 'elecHeating': 'True', 'heat': 'True', 'kind': 'Number', 'unit': 'watt_hour', 'baseboard-heater': 'True'}
+{'id': '@6497b830e9_energy', 'enerpro-point': 'True', 'energy': 'True', 'total': 'True', 'kind': 'Number', 'unit': 'watt_hour'}
+{'id': '@e017115420_baseboard_heater_energy', 'enerpro-point': 'True', 'energy': 'True', 'elecHeating': 'True', 'heat': 'True', 'kind': 'Number', 'unit': 'watt_hour', 'baseboard-heater': 'True'}
+{'id': '@e017115420_energy', 'enerpro-point': 'True', 'energy': 'True', 'total': 'True', 'kind': 'Number', 'unit': 'watt_hour'}
+{'id': '@MMU-MRM-2100-3-M1', 'enerpro-point': 'True', 'energy': 'True', 'kind': 'Number', 'unit': 'watt_hour', 'equipRef': '@CU_1'}
+{'id': '@MMU-MRM-2100-3-M2', 'enerpro-point': 'True', 'energy': 'True', 'kind': 'Number', 'unit': 'watt_hour', 'equipRef': '@CU_2'}
+{'id': '@MMU-MRM-2100-3-M3', 'enerpro-point': 'True', 'energy': 'True', 'kind': 'Number', 'unit': 'watt_hour', 'equipRef': '@BCR8_pump_1'}
+{'id': '@MMU-MRM-2100-3-M4', 'enerpro-point': 'True', 'energy': 'True', 'kind': 'Number', 'unit': 'watt_hour', 'equipRef': '@BCR8_pump_23'}
+{'id': '@MMU-MRM-2100-3-M5', 'enerpro-point': 'True', 'energy': 'True', 'kind': 'Number', 'unit': 'watt_hour', 'equipRef': '@BCR8_hydrokits'}
+{'id': '@MMU-MRM-2100-3-M6', 'enerpro-point': 'True', 'energy': 'True', 'kind': 'Number', 'unit': 'watt_hour', 'equipRef': '@BCR8_hydrokits'}
+{'id': '@MMU-MRM-1312', 'enerpro-point': 'True', 'energy': 'True', 'unit': 'watt_hour', 'equipRef': '@BCR8_pump_hydrokits', 'dis': 'pumps_4_to_11_HKHT_circulation'}
+{'id': '@2f0d213415_energy', 'enerpro-point': 'True', 'energy': 'True', 'total': 'True', 'kind': 'Number', 'unit': 'watt_hour'}
+{'id': '@7c1774d49a_energy', 'enerpro-point': 'True', 'energy': 'True', 'total': 'True', 'kind': 'Number', 'unit': 'watt_hour'}
+{'id': '@cc1f711192_baseboard_heater_energy', 'enerpro-point': 'True', 'energy': 'True', 'elecHeating': 'True', 'heat': 'True', 'kind': 'Number', 'unit': 'watt_hour', 'baseboard-heater': 'True'}
+{'id': '@e017115420_energy', 'enerpro-point': 'True', 'energy': 'True', 'total': 'True', 'kind': 'Number', 'unit': 'watt_hour'}
+{'id': '@6497b830e9_HW_fast', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '6497b830e9'}
+{'id': '@7ae7320c13_HW_fast', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '7ae7320c13'}
+{'id': '@0ae0db5546_HW_fast', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '0ae0db5546'}
+{'id': '@27610b1b9b_HW_fast', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '27610b1b9b'}
+{'id': '@d8d0f2d4f5_HW_fast', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'd8d0f2d4f5'}
+{'id': '@e017115420_HW_fast', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'e017115420'}
+{'id': '@01236b7618_HW_fast', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '01236b7618'}
+{'id': '@a199275171_HW_fast', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'a199275171'}
+{'id': '@ca5dd537d6_HW_fast', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'ca5dd537d6'}
+{'id': '@825c03c7d2_HW_fast', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '825c03c7d2'}
+{'id': '@db30336ee8_HW_fast', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'db30336ee8'}
+{'id': '@c3587a4a37_HW_fast', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'c3587a4a37'}
+{'id': '@b15971ccf8_HW_fast', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'b15971ccf8'}
+{'id': '@d2cbc0aed8_HW_fast', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'd2cbc0aed8'}
+{'id': '@dfd1837450_HW_fast', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'dfd1837450'}
+{'id': '@8a227e1ea1_HW_fast', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '8a227e1ea1'}
+{'id': '@1d494e7421_HW_fast', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '1d494e7421'}
+{'id': '@fb7f42f9c6_HW_fast', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'fb7f42f9c6'}
+{'id': '@2f0d213415_HW_fast', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '2f0d213415'}
+{'id': '@894d6410f6_HW_fast', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '894d6410f6'}
+{'id': '@7c1774d49a_HW_fast', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '7c1774d49a'}
+{'id': '@cc1f711192_HW_fast', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'cc1f711192'}
+{'id': '@1f720bdc4b_CW_fast', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '1f720bdc4b'}
+{'id': '@1f720bdc4b_HW_fast', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '1f720bdc4b'}
+{'id': '@db30336ee8_CW_fast', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'db30336ee8'}
+{'id': '@dfd1837450_CW_fast', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'dfd1837450'}
+{'id': '@b15971ccf8_CW_fast', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'b15971ccf8'}
+{'id': '@1d494e7421_CW_fast', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '1d494e7421'}
+{'id': '@d2cbc0aed8_CW_fast', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'd2cbc0aed8'}
+{'id': '@2f0d213415_CW_fast', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '2f0d213415'}
+{'id': '@7c1774d49a_CW_fast', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '7c1774d49a'}
+{'id': '@fb7f42f9c6_CW_fast', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'fb7f42f9c6'}
+{'id': '@cc1f711192_CW_fast', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'cc1f711192'}
+{'id': '@894d6410f6_CW_fast', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '894d6410f6'}
+{'id': '@6497b830e9_CW_fast', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '6497b830e9'}
+{'id': '@7ae7320c13_CW_fast', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '7ae7320c13'}
+{'id': '@0ae0db5546_CW_fast', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '0ae0db5546'}
+{'id': '@024590d55c_CW_fast', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '024590d55c'}
+{'id': '@024590d55c_HW_fast', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '024590d55c'}
+{'id': '@44e4715699_CW_fast', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '44e4715699'}
+{'id': '@44e4715699_HW_fast', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '44e4715699'}
+{'id': '@ca5dd537d6_CW_fast', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'ca5dd537d6'}
+{'id': '@d8d0f2d4f5_CW_fast', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'd8d0f2d4f5'}
+{'id': '@01236b7618_CW_fast', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '01236b7618'}
+{'id': '@a199275171_CW_fast', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'a199275171'}
+{'id': '@27610b1b9b_CW_fast', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '27610b1b9b'}
+{'id': '@c3587a4a37_CW_fast', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'c3587a4a37'}
+{'id': '@e017115420_CW_fast', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'e017115420'}
+{'id': '@8a227e1ea1_CW_fast', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '8a227e1ea1'}
+{'id': '@825c03c7d2_CW_fast', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '825c03c7d2'}
+{'id': '@87ab5d099a_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '87ab5d099a'}
+{'id': '@aea4207b80_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'aea4207b80'}
+{'id': '@29aa28635b_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '29aa28635b'}
+{'id': '@2c2cc55f0c_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '2c2cc55f0c'}
+{'id': '@598ea56d5d_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '598ea56d5d'}
+{'id': '@4ec9b35267_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '4ec9b35267'}
+{'id': '@e69f752504_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'e69f752504'}
+{'id': '@7ad287c9ab_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '7ad287c9ab'}
+{'id': '@c4c4f03694_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'c4c4f03694'}
+{'id': '@7491e68deb_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '7491e68deb'}
+{'id': '@390af4dfcf_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '390af4dfcf'}
+{'id': '@cfed54a4b8_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'cfed54a4b8'}
+{'id': '@11c538f471_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '11c538f471'}
+{'id': '@b70021ce4d_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'b70021ce4d'}
+{'id': '@bda17a488d_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'bda17a488d'}
+{'id': '@7ee31538af_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '7ee31538af'}
+{'id': '@8e61c4ab83_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '8e61c4ab83'}
+{'id': '@3f2279b8ac_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '3f2279b8ac'}
+{'id': '@06b814bb00_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '06b814bb00'}
+{'id': '@53b03569c5_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '53b03569c5'}
+{'id': '@43e8fb919d_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '43e8fb919d'}
+{'id': '@121d9d1e02_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '121d9d1e02'}
+{'id': '@cf92bea93a_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'cf92bea93a'}
+{'id': '@f5cef328bc_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'f5cef328bc'}
+{'id': '@c99787e33f_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'c99787e33f'}
+{'id': '@622cb68249_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '622cb68249'}
+{'id': '@c4eff2b30e_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'c4eff2b30e'}
+{'id': '@e7e5895d93_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'e7e5895d93'}
+{'id': '@32ac5be2e7_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '32ac5be2e7'}
+{'id': '@e9ef2f5db3_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'e9ef2f5db3'}
+{'id': '@90bc55ac95_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '90bc55ac95'}
+{'id': '@eeec670be5_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'eeec670be5'}
+{'id': '@f4dfc289d3_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'f4dfc289d3'}
+{'id': '@ee3c572619_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'ee3c572619'}
+{'id': '@726c163d61_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '726c163d61'}
+{'id': '@1c328456d6_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '1c328456d6'}
+{'id': '@ca921dd38a_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'ca921dd38a'}
+{'id': '@6c93d6f087_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '6c93d6f087'}
+{'id': '@17d225bcee_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '17d225bcee'}
+{'id': '@7619f20181_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '7619f20181'}
+{'id': '@5fc66a48ef_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '5fc66a48ef'}
+{'id': '@a62557bd75_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'a62557bd75'}
+{'id': '@f64bebabd8_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'f64bebabd8'}
+{'id': '@67530428bd_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '67530428bd'}
+{'id': '@93a3b2afe2_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '93a3b2afe2'}
+{'id': '@4a554f34f7_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '4a554f34f7'}
+{'id': '@d2751ef7f5_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'd2751ef7f5'}
+{'id': '@81b7503c05_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '81b7503c05'}
+{'id': '@56d607430e_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '56d607430e'}
+{'id': '@bb6db810f5_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'bb6db810f5'}
+{'id': '@598ea56d5d_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '598ea56d5d'}
+{'id': '@2c2cc55f0c_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '2c2cc55f0c'}
+{'id': '@fc930394e0_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'fc930394e0'}
+{'id': '@e69f752504_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'e69f752504'}
+{'id': '@c4c4f03694_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'c4c4f03694'}
+{'id': '@7ad287c9ab_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '7ad287c9ab'}
+{'id': '@b70021ce4d_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'b70021ce4d'}
+{'id': '@cfed54a4b8_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'cfed54a4b8'}
+{'id': '@390af4dfcf_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '390af4dfcf'}
+{'id': '@7491e68deb_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '7491e68deb'}
+{'id': '@11c538f471_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '11c538f471'}
+{'id': '@8350f767c7_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '8350f767c7'}
+{'id': '@abefaa50fc_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'abefaa50fc'}
+{'id': '@17a746a711_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '17a746a711'}
+{'id': '@0e1592c1af_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '0e1592c1af'}
+{'id': '@36aa486ac0_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '36aa486ac0'}
+{'id': '@fbb6a1808f_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'fbb6a1808f'}
+{'id': '@b8f65d02ef_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'b8f65d02ef'}
+{'id': '@f0d20e944b_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'f0d20e944b'}
+{'id': '@d5d0444473_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'd5d0444473'}
+{'id': '@6ec4a5b7e1_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '6ec4a5b7e1'}
+{'id': '@e2caaa41dd_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'e2caaa41dd'}
+{'id': '@6ccd7c9989_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '6ccd7c9989'}
+{'id': '@6dc64fdfef_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '6dc64fdfef'}
+{'id': '@fb9852345a_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'fb9852345a'}
+{'id': '@a28e4c949d_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'a28e4c949d'}
+{'id': '@646fc92723_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '646fc92723'}
+{'id': '@c7ea538a9f_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'c7ea538a9f'}
+{'id': '@b3047fec6f_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'b3047fec6f'}
+{'id': '@d9d5318f66_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'd9d5318f66'}
+{'id': '@785f7f24e4_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '785f7f24e4'}
+{'id': '@0ac66d5c48_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '0ac66d5c48'}
+{'id': '@e19f689ff3_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'e19f689ff3'}
+{'id': '@fba83eb9cf_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'fba83eb9cf'}
+{'id': '@6dce1f4f88_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '6dce1f4f88'}
+{'id': '@aea4207b80_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'aea4207b80'}
+{'id': '@ce76336a56_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'ce76336a56'}
+{'id': '@4ec9b35267_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '4ec9b35267'}
+{'id': '@87ab5d099a_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '87ab5d099a'}
+{'id': '@29aa28635b_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '29aa28635b'}
+{'id': '@4a32fc8f42_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '4a32fc8f42'}
+{'id': '@c3c4ca4d88_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'c3c4ca4d88'}
+{'id': '@6693483a37_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '6693483a37'}
+{'id': '@07607418d9_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '07607418d9'}
+{'id': '@3d824530af_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '3d824530af'}
+{'id': '@c127784dbc_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'c127784dbc'}
+{'id': '@5ff2c7a276_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '5ff2c7a276'}
+{'id': '@47e99858e7_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '47e99858e7'}
+{'id': '@df6df27a75_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'df6df27a75'}
+{'id': '@be4c8c8da9_HW_slow', 'enerpro-point': 'True', 'volume': 'True', 'hot': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'be4c8c8da9'}
+{'id': '@06b814bb00_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '06b814bb00'}
+{'id': '@f5cef328bc_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'f5cef328bc'}
+{'id': '@4a32fc8f42_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '4a32fc8f42'}
+{'id': '@121d9d1e02_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '121d9d1e02'}
+{'id': '@be4c8c8da9_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'be4c8c8da9'}
+{'id': '@8e61c4ab83_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '8e61c4ab83'}
+{'id': '@df6df27a75_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'df6df27a75'}
+{'id': '@47e99858e7_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '47e99858e7'}
+{'id': '@c127784dbc_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'c127784dbc'}
+{'id': '@c3c4ca4d88_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'c3c4ca4d88'}
+{'id': '@07607418d9_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '07607418d9'}
+{'id': '@6693483a37_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '6693483a37'}
+{'id': '@5ff2c7a276_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '5ff2c7a276'}
+{'id': '@3d824530af_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '3d824530af'}
+{'id': '@67530428bd_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '67530428bd'}
+{'id': '@5fc66a48ef_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '5fc66a48ef'}
+{'id': '@56d607430e_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '56d607430e'}
+{'id': '@a62557bd75_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'a62557bd75'}
+{'id': '@81b7503c05_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '81b7503c05'}
+{'id': '@bb6db810f5_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'bb6db810f5'}
+{'id': '@ee3c572619_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'ee3c572619'}
+{'id': '@17d225bcee_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '17d225bcee'}
+{'id': '@7619f20181_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '7619f20181'}
+{'id': '@fc930394e0_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'fc930394e0'}
+{'id': '@ca921dd38a_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'ca921dd38a'}
+{'id': '@1c328456d6_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '1c328456d6'}
+{'id': '@f64bebabd8_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'f64bebabd8'}
+{'id': '@ce76336a56_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'ce76336a56'}
+{'id': '@93a3b2afe2_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '93a3b2afe2'}
+{'id': '@6c93d6f087_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '6c93d6f087'}
+{'id': '@d2751ef7f5_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'd2751ef7f5'}
+{'id': '@4a554f34f7_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '4a554f34f7'}
+{'id': '@0ac66d5c48_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '0ac66d5c48'}
+{'id': '@e19f689ff3_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'e19f689ff3'}
+{'id': '@6dce1f4f88_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '6dce1f4f88'}
+{'id': '@fba83eb9cf_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'fba83eb9cf'}
+{'id': '@abefaa50fc_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'abefaa50fc'}
+{'id': '@b8f65d02ef_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'b8f65d02ef'}
+{'id': '@17a746a711_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '17a746a711'}
+{'id': '@f0d20e944b_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'f0d20e944b'}
+{'id': '@36aa486ac0_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '36aa486ac0'}
+{'id': '@6ec4a5b7e1_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '6ec4a5b7e1'}
+{'id': '@8350f767c7_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '8350f767c7'}
+{'id': '@0e1592c1af_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '0e1592c1af'}
+{'id': '@fbb6a1808f_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'fbb6a1808f'}
+{'id': '@d5d0444473_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'd5d0444473'}
+{'id': '@a28e4c949d_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'a28e4c949d'}
+{'id': '@6ccd7c9989_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '6ccd7c9989'}
+{'id': '@e2caaa41dd_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'e2caaa41dd'}
+{'id': '@6dc64fdfef_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '6dc64fdfef'}
+{'id': '@646fc92723_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '646fc92723'}
+{'id': '@b3047fec6f_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'b3047fec6f'}
+{'id': '@c7ea538a9f_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'c7ea538a9f'}
+{'id': '@fb9852345a_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'fb9852345a'}
+{'id': '@d9d5318f66_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'd9d5318f66'}
+{'id': '@785f7f24e4_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '785f7f24e4'}
+{'id': '@e7e5895d93_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'e7e5895d93'}
+{'id': '@32ac5be2e7_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '32ac5be2e7'}
+{'id': '@c99787e33f_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'c99787e33f'}
+{'id': '@e9ef2f5db3_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'e9ef2f5db3'}
+{'id': '@eeec670be5_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'eeec670be5'}
+{'id': '@622cb68249_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '622cb68249'}
+{'id': '@53b03569c5_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '53b03569c5'}
+{'id': '@c4eff2b30e_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'c4eff2b30e'}
+{'id': '@3f2279b8ac_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '3f2279b8ac'}
+{'id': '@90bc55ac95_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '90bc55ac95'}
+{'id': '@726c163d61_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '726c163d61'}
+{'id': '@7ee31538af_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '7ee31538af'}
+{'id': '@43e8fb919d_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': '43e8fb919d'}
+{'id': '@bda17a488d_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'bda17a488d'}
+{'id': '@f4dfc289d3_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'f4dfc289d3'}
+{'id': '@cf92bea93a_CW_slow', 'enerpro-point': 'True', 'volume': 'True', 'cold': 'True', 'water': 'True', 'kind': 'Number', 'unit': 'cubic_meter', 'suite': 'cf92bea93a'}
+{'id': '@BTU-01-energy', 'equipRef': '@BCR8_hydrokit_1', 'enerpro-point': 'True', 'energy': 'True', 'kind': 'Number', 'unit': 'watt_hour', 'sankey_test': 'True', 'tier_1': 'Other Electrical', 'tier_2': 'Common Areas', 'tier_3': 'Receptacles'}
+{'id': '@BTU-01-volume', 'equipRef': '@BCR8_hydrokit_1', 'enerpro-point': 'True', 'volume': 'True', 'kind': 'Number', 'unit': 'cubic_meter'}
+{'id': '@BTU-01-power', 'equipRef': '@BCR8_hydrokit_1', 'enerpro-point': 'True', 'power': 'True', 'kind': 'Number', 'unit': 'watt'}
+{'id': '@BTU-01-volume-flow', 'equipRef': '@BCR8_hydrokit_1', 'enerpro-point': 'True', 'volume-flow': 'True', 'kind': 'Number', 'unit': 'cubic_meters_per_hour'}
+{'id': '@BTU-01-flow-temp', 'equipRef': '@BCR8_hydrokit_1', 'enerpro-point': 'True', 'supply': 'True', 'water': 'True', 'temp': 'True', 'kind': 'Number', 'unit': 'celsius'}
+{'id': '@BTU-01-return-temp', 'equipRef': '@BCR8_hydrokit_1', 'enerpro-point': 'True', 'return': 'True', 'water': 'True', 'temp': 'True', 'kind': 'Number', 'unit': 'celsius'}
+{'id': '@BTU-02-energy', 'equipRef': '@BCR8_hydrokit_2', 'enerpro-point': 'True', 'energy': 'True', 'kind': 'Number', 'unit': 'watt_hour', 'sankey_test': 'True', 'tier_1': 'Other Electrical', 'tier_2': 'Common Areas', 'tier_3': 'Elevators'}
+{'id': '@BTU-02-volume', 'equipRef': '@BCR8_hydrokit_2', 'enerpro-point': 'True', 'volume': 'True', 'kind': 'Number', 'unit': 'cubic_meter'}
+{'id': '@BTU-02-power', 'equipRef': '@BCR8_hydrokit_2', 'enerpro-point': 'True', 'power': 'True', 'kind': 'Number', 'unit': 'watt'}
+{'id': '@BTU-02-volume-flow', 'equipRef': '@BCR8_hydrokit_2', 'enerpro-point': 'True', 'volume-flow': 'True', 'kind': 'Number', 'unit': 'cubic_meters_per_hour'}
+{'id': '@BTU-02-flow-temp', 'equipRef': '@BCR8_hydrokit_2', 'enerpro-point': 'True', 'supply': 'True', 'water': 'True', 'temp': 'True', 'kind': 'Number', 'unit': 'celsius'}
+{'id': '@BTU-02-return-temp', 'equipRef': '@BCR8_hydrokit_2', 'enerpro-point': 'True', 'return': 'True', 'water': 'True', 'temp': 'True', 'kind': 'Number', 'unit': 'celsius'}
+{'id': '@BTU-03-energy', 'equipRef': '@BCR8_hydrokit_3', 'enerpro-point': 'True', 'energy': 'True', 'kind': 'Number', 'unit': 'watt_hour', 'sankey_test': 'True', 'tier_1': 'Ventilation', 'tier_2': 'HRVs', 'tier_3': 'HRV1'}
+{'id': '@BTU-03-volume', 'equipRef': '@BCR8_hydrokit_3', 'enerpro-point': 'True', 'volume': 'True', 'kind': 'Number', 'unit': 'cubic_meter'}
+{'id': '@BTU-03-power', 'equipRef': '@BCR8_hydrokit_3', 'enerpro-point': 'True', 'power': 'True', 'kind': 'Number', 'unit': 'watt'}
+{'id': '@BTU-03-volume-flow', 'equipRef': '@BCR8_hydrokit_3', 'enerpro-point': 'True', 'volume-flow': 'True', 'kind': 'Number', 'unit': 'cubic_meters_per_hour'}
+{'id': '@BTU-03-flow-temp', 'equipRef': '@BCR8_hydrokit_3', 'enerpro-point': 'True', 'supply': 'True', 'water': 'True', 'temp': 'True', 'kind': 'Number', 'unit': 'celsius'}
+{'id': '@BTU-03-return-temp', 'equipRef': '@BCR8_hydrokit_3', 'enerpro-point': 'True', 'return': 'True', 'water': 'True', 'temp': 'True', 'kind': 'Number', 'unit': 'celsius'}
+{'id': '@BTU-04-energy', 'equipRef': '@BCR8_hydrokit_4', 'enerpro-point': 'True', 'energy': 'True', 'kind': 'Number', 'unit': 'watt_hour', 'sankey_test': 'True', 'tier_1': 'Ventilation', 'tier_2': 'HRVs', 'tier_3': 'HRV2'}
+{'id': '@BTU-04-volume', 'equipRef': '@BCR8_hydrokit_4', 'enerpro-point': 'True', 'volume': 'True', 'kind': 'Number', 'unit': 'cubic_meter'}
+{'id': '@BTU-04-power', 'equipRef': '@BCR8_hydrokit_4', 'enerpro-point': 'True', 'power': 'True', 'kind': 'Number', 'unit': 'watt'}
+{'id': '@BTU-04-volume-flow', 'equipRef': '@BCR8_hydrokit_4', 'enerpro-point': 'True', 'volume-flow': 'True', 'kind': 'Number', 'unit': 'cubic_meters_per_hour'}
+{'id': '@BTU-04-flow-temp', 'equipRef': '@BCR8_hydrokit_4', 'enerpro-point': 'True', 'supply': 'True', 'water': 'True', 'temp': 'True', 'kind': 'Number', 'unit': 'celsius'}
+{'id': '@BTU-04-return-temp', 'equipRef': '@BCR8_hydrokit_4', 'enerpro-point': 'True', 'return': 'True', 'water': 'True', 'temp': 'True', 'kind': 'Number', 'unit': 'celsius'}
+{'id': '@BTU-05-energy', 'equipRef': '@BCR8_hydrokit_5', 'enerpro-point': 'True', 'energy': 'True', 'kind': 'Number', 'unit': 'watt_hour', 'sankey_test': 'True', 'tier_1': 'DHW', 'tier_2': 'Pumps', 'tier_3': 'circ_pump'}
+{'id': '@BTU-05-volume', 'equipRef': '@BCR8_hydrokit_5', 'enerpro-point': 'True', 'volume': 'True', 'kind': 'Number', 'unit': 'cubic_meter'}
+{'id': '@BTU-05-power', 'equipRef': '@BCR8_hydrokit_5', 'enerpro-point': 'True', 'power': 'True', 'kind': 'Number', 'unit': 'watt'}
+{'id': '@BTU-05-volume-flow', 'equipRef': '@BCR8_hydrokit_5', 'enerpro-point': 'True', 'volume-flow': 'True', 'kind': 'Number', 'unit': 'cubic_meters_per_hour'}
+{'id': '@BTU-05-flow-temp', 'equipRef': '@BCR8_hydrokit_5', 'enerpro-point': 'True', 'supply': 'True', 'water': 'True', 'temp': 'True', 'kind': 'Number', 'unit': 'celsius'}
+{'id': '@BTU-05-return-temp', 'equipRef': '@BCR8_hydrokit_5', 'enerpro-point': 'True', 'return': 'True', 'water': 'True', 'temp': 'True', 'kind': 'Number', 'unit': 'celsius'}
+{'id': '@BTU-06-energy', 'equipRef': '@BCR8_hydrokit_6', 'enerpro-point': 'True', 'energy': 'True', 'kind': 'Number', 'unit': 'watt_hour', 'sankey_test': 'True', 'tier_1': 'DHW', 'tier_2': 'cond_units', 'tier_3': '---'}
+{'id': '@BTU-06-volume', 'equipRef': '@BCR8_hydrokit_6', 'enerpro-point': 'True', 'volume': 'True', 'kind': 'Number', 'unit': 'cubic_meter'}
+{'id': '@BTU-06-power', 'equipRef': '@BCR8_hydrokit_6', 'enerpro-point': 'True', 'power': 'True', 'kind': 'Number', 'unit': 'watt'}
+{'id': '@BTU-06-volume-flow', 'equipRef': '@BCR8_hydrokit_6', 'enerpro-point': 'True', 'volume-flow': 'True', 'kind': 'Number', 'unit': 'cubic_meters_per_hour'}
+{'id': '@BTU-06-flow-temp', 'equipRef': '@BCR8_hydrokit_6', 'enerpro-point': 'True', 'supply': 'True', 'water': 'True', 'temp': 'True', 'kind': 'Number', 'unit': 'celsius'}
+{'id': '@BTU-06-return-temp', 'equipRef': '@BCR8_hydrokit_6', 'enerpro-point': 'True', 'return': 'True', 'water': 'True', 'temp': 'True', 'kind': 'Number', 'unit': 'celsius'}
+{'id': '@BTU-07-energy', 'equipRef': '@BCR8_hydrokit_7', 'enerpro-point': 'True', 'energy': 'True', 'kind': 'Number', 'unit': 'watt_hour', 'sankey_test': 'True', 'tier_1': 'DHW', 'tier_2': 'hydrokits', 'tier_3': '---'}
+{'id': '@BTU-07-volume', 'equipRef': '@BCR8_hydrokit_7', 'enerpro-point': 'True', 'volume': 'True', 'kind': 'Number', 'unit': 'cubic_meter'}
+{'id': '@BTU-07-power', 'equipRef': '@BCR8_hydrokit_7', 'enerpro-point': 'True', 'power': 'True', 'kind': 'Number', 'unit': 'watt'}
+{'id': '@BTU-07-volume-flow', 'equipRef': '@BCR8_hydrokit_7', 'enerpro-point': 'True', 'volume-flow': 'True', 'kind': 'Number', 'unit': 'cubic_meters_per_hour'}
+{'id': '@BTU-07-flow-temp', 'equipRef': '@BCR8_hydrokit_7', 'enerpro-point': 'True', 'supply': 'True', 'water': 'True', 'temp': 'True', 'kind': 'Number', 'unit': 'celsius'}
+{'id': '@BTU-07-return-temp', 'equipRef': '@BCR8_hydrokit_7', 'enerpro-point': 'True', 'return': 'True', 'water': 'True', 'temp': 'True', 'kind': 'Number', 'unit': 'celsius'}
+{'id': '@BTU-08-energy', 'equipRef': '@BCR8_hydrokit_8', 'enerpro-point': 'True', 'energy': 'True', 'kind': 'Number', 'unit': 'watt_hour', 'sankey_test': 'True', 'tier_1': 'Heating/Cooling', 'tier_2': 'Condensing Units', 'tier_3': 'Unit 1'}
+{'id': '@BTU-08-volume', 'equipRef': '@BCR8_hydrokit_8', 'enerpro-point': 'True', 'volume': 'True', 'kind': 'Number', 'unit': 'cubic_meter'}
+{'id': '@BTU-08-power', 'equipRef': '@BCR8_hydrokit_8', 'enerpro-point': 'True', 'power': 'True', 'kind': 'Number', 'unit': 'watt'}
+{'id': '@BTU-08-volume-flow', 'equipRef': '@BCR8_hydrokit_8', 'enerpro-point': 'True', 'volume-flow': 'True', 'kind': 'Number', 'unit': 'cubic_meters_per_hour'}
+{'id': '@BTU-08-flow-temp', 'equipRef': '@BCR8_hydrokit_8', 'enerpro-point': 'True', 'supply': 'True', 'water': 'True', 'temp': 'True', 'kind': 'Number', 'unit': 'celsius'}
+{'id': '@BTU-08-return-temp', 'equipRef': '@BCR8_hydrokit_8', 'enerpro-point': 'True', 'return': 'True', 'water': 'True', 'temp': 'True', 'kind': 'Number', 'unit': 'celsius'}

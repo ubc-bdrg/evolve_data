@@ -1,0 +1,52 @@
+
+
+========================================================================================================================================================================
+These points were not assigned the correct scaling factor when connecting to the data logger.
+Hence the values that were reported via the API were incorrect.
+
+@MMU-MEL-2100-1-M1: Electrical meter for North HRV, its associated Condensing Unit, and negligible communications loads.
+@MMU-MEL-2100-1-M2: Electrical meter for South HRV, its associated Condensing Unit, and minimal amenity loads.
+@MMU-MEL-2100-1-M3: Total house lighting load.
+@MMU-MEL-2100-1-M4: Mech room total load. Consists of DHW equipments (pumps, condensing units, and hydrokits)
+@MMU-MEL-2100-1-M5: Ancillary AC (and condensings) units, Water entry unit heaters, parkade fans and receptacles, and other negligible common area loads
+@MMU-MEL-2100-1-M6: EV charging load.
+@MMU-MEL-2100-2-M1: Elevator #1 electrical load
+@MMU-MEL-2100-2-M2: Elevator #1 electrical load
+@MMU-MEL-2100-2-M3: Fire alarm system electrical load
+@MMU-MEL-2100-2-M4: Submeter of @MMU-MEL-2100-1-M3. Interior lighting loads for all floors.
+@MMU-MEL-ACCII-PV-Export-15-minutely: Exported energy from PV
+@MMU-MEL-ACCII-PV-Import-15-minutely: Imported energy from PV
+@MMU-N6-M1: HRV North.
+@MMU-N6-M2: Condensing unit for North HRV.
+
+For the correct readings, please use the MELs directly.
+========================================================================================================================================================================
+
+@MMU-MRM-2100-3-M1: Condensing unit #1 for DHW Hydrokits energy load
+@MMU-MRM-2100-3-M2: Condensing unit #1 for DHW Hydrokits energy load
+@MMU-MRM-2100-3-M3: DHW Recirculation pump energy load
+@MMU-MRM-2100-3-M4: Pumps for DHW system energy load
+@MMU-MRM-2100-3-M5: Energy load for half of the DHW Hydrokits
+@MMU-MRM-2100-3-M6: Energy load for other half of the DHW Hydrokits
+@MMU-MRM-1312: DHW Hydrokit pumps. Meter not calibrated so values are useless.
+
+@0ae0db5546_baseboard_heater_energy: Guest suite baseboard heater energy usage.
+@0ae0db5546_receptacles_energy: Guest suite receptacles energy usage.
+@0ae0db5546_appliances_energy: Guest suite major appliances energy usage.
+
+Repeated Abbreviations:
+_CW_: Cold water volume
+_HW_: Hot water volume
+
+xx_fast: High time-resolution meter (hourly resolution or less)
+xx_slow: Low time-resolution meter (usually daily resolution)
+
+xxxxxxxx_energy: energy meter for all electrical in suite (combined baseboard, receptacles, and appliances)
+xxxxxxxx_baseboard_heater_energy: energy meter for electrical energy draw from baseboard heater
+
+@BTU-xx-energy: Hydrokit energy usage
+@BTU-xx-volume: Hydrokit cumulative water volume
+@BTU-xx-power: Hydrokit power demand
+@BTU-xx-volume-flow: Hydrokit volume flow rate (cubic_meters_per_hour)
+@BTU-xx-flow-temp: Hydrokit supply water temperature
+@BTU-xx-return-temp: Hydrokit return water temperature
