@@ -1,0 +1,65 @@
+This file describes some of the BMS datapoints in more detail. While the associated tagging info does describe the points using the haystack convention, more information is provided in this document.
+
+Some common abbrevations:
+TL: Trend-log. All of these points are taken from the trendlog storage on the hardware.
+POLL: Points are measured at regular intervals
+COV: Change of Value - Points are only recorded when the value is changed.
+RT: Room Temperature
+SA: Supply Air
+EA: Exhaust Air
+RA: Return Air
+DHW: Domestic Hot Water
+AL: Alarm
+
+Suite-Specific Abbreviations
+
+xxx_RT_POLL_TL: Room Temperature
+xxx_RDP_SA_DMP_FB_POLL_TL: Supply Air Damper Feedback
+xxx_RDP_SA_DP_POLL_TL: Supply Air Duct Pressure
+xxx_RDP_SA_DMP_POLL_TL: Supply Air Damper Position
+xxx_WINDOW_S_COV_TL: Window Sensor Status Binary Change of Value
+xxx_BBH_C_COV_TL: Baseboard Heater Status Binary Change of Value
+xxx_RDP_SA_RT_SP_POLL_TL: Supply Air Room Temperature Setpoint
+xxx_RDP_SA_RT_OCC_HTG_SP_POLL_TL: Supply Air Heating Setpoint
+xxx_RDP_SA_FLW_POLL_TL: Supply Air Flow Rate
+xxx_RDP_SA_FLW_SP_POLL_TL: Supply Air Flow Setpoint
+xxx_RDP_SA_RT_OCC_SP_POLL_TL: Supply Air Occupied Room Temperature Setpoint
+xxx_RDP_SA_RT_UNOCC_HTG_SP_POLL_TL: Supply Air Unoccupied Room Temperature Heating Setpoint
+xxx_RDP_SA_RT_UNOCC_CLG_SP_POLL_TL: Supply Air Unoccupied Room Temperature Cooling Setpoint
+xxx_RDP_SA_RT_NSB_HTG_SP_POLL_TL: Supply Air Night Setback Room Temperature Heating Setpoint
+xxx_RDP_SA_RT_NSB_CLG_SP_POLL_TL: Supply Air Night Setback Room Temperature Cooling Setpoint
+xxx_RDP_SA_FIRE_ALARM_MUX_COV_TL: Supply Air Fire Alarm Status Binary Change of Value
+xxx_RDP_RA_DMP_FB_POLL_TL: Return Air Damper Feedback
+xxx_RDP_RA_DP_POLL_TL: Return Air Duct Pressure
+xxx_RDP_RA_DMP_POLL_TL: Return Air Damper Position
+xxx_RDP_RA_FLW_POLL_TL: Return Air Flow Rate
+xxx_RDP_RA_FLW_SP_POLL_TL: Return Air Flow Setpoint
+xxx_RDP_RA_HRV_EFS_BV_MUX_COV_TL:
+xxx_RDP_RA_FIRE_ALARM_MUX_COV_TL: Supply Air Fire Alarm Status Binary Change of Value
+
+Equipment Specific Descriptors
+
+BCR8_DHW_DHWST_1/2: Domestic Hot Water Storage Tanks
+- xxx_EW_T_POLL_TL: Entry Water Temperature
+- xxx_LW_T_POLL_TL: Leaving Water Temperature
+
+BCR8_DHW_HX1/2: Domestic Hot Water Heat Exchangers
+- xxx_PRI_EW_T_POLL_TL: Entry Water Temperature
+- xxx_PRI_LW_T_POLL_TL: Leaving Water Temperature
+
+BCR8_HRV_1/2: Heat Recovery Ventilators
+- xxx_EA_Airflow_MUX_POLL_TL: Exhaust Air Flow Rate
+- xxx_EA_Fan_Level_MUX_POLL_TL: Exhaust Air Fan Level
+- xxx_SF_A_POLL_TL: Supply Fan Current
+- xxx_Outdoor_Temperature_MUX_POLL_TL: Outdoor Air Temperature at HRV
+- xxx_SA_Temperature_MUX_POLL_TL: Supply Air Temperature
+- xxx_SA_Temperature_SP_MUX_POLL_TL: Supply Air Temperature Setpoint
+- xxx_Heat_Exchanger_Regulator_Level_MUX_POLL_TL: Heat (Energy) Recovery Wheel Level
+
+BCR8_DHW_P1-11: Various Pumps in the building
+- P1: DHW Recirculation Pump
+- P2/3: DHW Pumps
+- P4-11: DHW Hydrokits Pumps
+
+- xxx_VFD_SPD_FB_POLL_TL: Pump Speed Feedback Level
+- xxx_VFD_SPD_POLL_TL: Pump Speed Level

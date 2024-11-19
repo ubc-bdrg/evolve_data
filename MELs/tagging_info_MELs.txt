@@ -1,0 +1,24 @@
+{'id': '@BCR8_house_load_kWh', 'dis': 'house_electrical_load', 'energy': 'True', 'house-load': 'True', 'kind': 'Number', 'unit': 'kilowatt_hour'}
+{'id': '@BCR8_total_TOD_load_kWh', 'dis': 'total_building_electrical_load', 'energy': 'True', 'kind': 'Number', 'total': 'True', 'unit': 'kilowatt_hour'}
+{'id': '@BCR8_0ae0db5546_kWh', 'dis': 'guest_suite_electrical_load', 'energy': 'True', 'kind': 'Number', 'total': 'True', 'unit': 'kilowatt_hour'}
+{'id': '@BCR8_fb7f42f9c6_kWh', 'dis': 'building_manager_suite_electrical_load', 'energy': 'True', 'kind': 'Number', 'total': 'True', 'unit': 'kilowatt_hour'}
+{'id': '@BCR8_TOD_hourly_kWh', 'dis': 'total_hourly_building_electrical_load', 'energy': 'True', 'kind': 'Number', 'total': 'True', 'unit': 'kilowatt_hour'}
+{'id': '@BCR8_TOD_minutely_kWh', 'dis': 'total_minutely_building_electrical_load', 'energy': 'True', 'kind': 'Number', 'total': 'True', 'unit': 'kilowatt_hour'}
+{'id': '@MMU-MEL-2100-1-M1', 'dis': 'HRV_N_and_more', 'energy': 'True', 'kind': 'Number', 'panel': 'N1', 'receptacles': 'True', 'total': 'True', 'unit': 'kilowatt_hour'}
+{'id': '@MMU-MEL-2100-1-M2', 'dis': 'HRV_S_and_more', 'energy': 'True', 'kind': 'Number', 'panel': 'S1', 'receptacles': 'True', 'total': 'True', 'unit': 'kilowatt_hour'}
+{'id': '@MMU-MEL-2100-1-M3', 'dis': 'lighting_load_total', 'energy': 'True', 'kind': 'Number', 'lighting': 'True', 'panel': 'L0', 'total': 'True', 'unit': 'kilowatt_hour'}
+{'id': '@MMU-MEL-2100-1-M4', 'dis': 'mech_room_load_total', 'energy': 'True', 'kind': 'Number', 'mech': 'True', 'panel': 'HM', 'total': 'True', 'unit': 'kilowatt_hour'}
+{'id': '@MMU-MEL-2100-1-M5', 'dis': 'ancillary_AC_and_misc_load', 'energy': 'True', 'house-load': 'True', 'kind': 'Number', 'panel': 'HP', 'total': 'True', 'unit': 'kilowatt_hour'}
+{'id': '@MMU-MEL-2100-1-M6', 'dis': 'ev_charging_total_load', 'energy': 'True', 'ev-charging': 'True', 'kind': 'Number', 'panel': 'HEV', 'total': 'True', 'unit': 'kilowatt_hour'}
+{'id': '@MMU-MEL-2100-2-M1', 'dis': 'elevator_1', 'energy': 'True', 'kind': 'Number', 'unit': 'kilowatt_hour', 'verticalTransport': 'True'}
+{'id': '@MMU-MEL-2100-2-M2', 'dis': 'elevator_2', 'energy': 'True', 'kind': 'Number', 'unit': 'kilowatt_hour', 'verticalTransport': 'True'}
+{'id': '@MMU-MEL-2100-2-M3', 'dis': 'fire_alarm_load', 'alarm': 'True', 'energy': 'True', 'fire': 'True', 'unit': 'kilowatt_hour'}
+{'id': '@MMU-MEL-2100-2-M4', 'dis': 'lighting_load_levels_1_to_6', 'energy': 'True', 'kind': 'Number', 'lighting': 'True', 'submetered': 'True', 'total': 'True', 'unit': 'kilowatt_hour'}
+{'id': '@MMU-MEL-ACCII-PV-Export-15-minutely', 'dis': 'PV_export', 'energy': 'True', 'export': 'True', 'kind': 'Number', 'photovoltaic': 'True', 'unit': 'kilowatt_hour'}
+{'id': '@MMU-MEL-ACCII-PV-Import-15-minutely', 'dis': 'PV_import', 'energy': 'True', 'import': 'True', 'kind': 'Number', 'photovoltaic': 'True', 'unit': 'kilowatt_hour'}
+{'id': '@MMU-MRM-2100-3-M1', 'dis': 'condensing_unit_1_load', 'energy': 'True', 'equipRef': '@CU_1', 'kind': 'Number', 'unit': 'watt_hour'}
+{'id': '@MMU-MRM-2100-3-M2', 'dis': 'condensing_unit_2_load', 'energy': 'True', 'equipRef': '@CU_2', 'kind': 'Number', 'unit': 'watt_hour'}
+{'id': '@MMU-MRM-2100-3-M3', 'dis': 'pump_1_load', 'energy': 'True', 'equipRef': '@BCR8_pump_1', 'kind': 'Number', 'unit': 'watt_hour'}
+{'id': '@MMU-MRM-2100-3-M4', 'dis': 'pumps_2_and_3_load', 'energy': 'True', 'equipRef': '@BCR8_pump_23', 'kind': 'Number', 'unit': 'watt_hour'}
+{'id': '@MMU-MRM-2100-3-M5', 'dis': 'hydrokits_load', 'energy': 'True', 'equipRef': '@BCR8_hydrokits', 'kind': 'Number', 'unit': 'watt_hour'}
+{'id': '@MMU-MRM-2100-3-M6', 'dis': 'hydrokits_load', 'energy': 'True', 'equipRef': '@BCR8_hydrokits', 'kind': 'Number', 'unit': 'watt_hour'}

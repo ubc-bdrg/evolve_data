@@ -1,0 +1,30 @@
+These readings were gathered from the local energy provider's (BC Hydro's) data access system.
+
+@BCR8_house_load_kWh: Total house load energy consumption reported at hourly intervals for Jan 1 to Dec 31. From EDR request.
+@BCR8_total_TOD_load_kWh: Total house load energy consumption reported at hourly intervals for Apr 27 to Dec 31. From EDR request.
+@BCR8_0ae0db5546_kWh: Guest suite total electrical load (plugs, appliances, baseboard heater, etc.). From BC Hydro data export.
+@BCR8_fb7f42f9c6_kWh: Upper floor suite total electrical load. From BC Hydro data export.
+@BCR8_TOD_hourly_kWh: Total house load energy consumption reported at hourly intervals for Jan 1 to Dec 31. From BC Hydro data export.
+@BCR8_TOD_minutely_kWh: Total house load energy consumption reported at minutely intervals for Jan 1 to Dec 31. From BC Hydro data export.
+
+Direct export MELs
+These readings were directly exported from the meters and were not subject the commissioning issues associated with the datalogger.
+
+@MMU-MEL-2100-1-M1: Electrical meter for North HRV, its associated Condensing Unit, and negligible communications loads.
+@MMU-MEL-2100-1-M2: Electrical meter for South HRV, its associated Condensing Unit, and minimal amenity loads.
+@MMU-MEL-2100-1-M3: Total house lighting load.
+@MMU-MEL-2100-1-M4: Mech room total load. Consists of DHW equipments (pumps, condensing units, and hydrokits)
+@MMU-MEL-2100-1-M5: Ancillary AC (and condensings) units, Water entry unit heaters, parkade fans and receptacles, and other negligible common area loads
+@MMU-MEL-2100-1-M6: EV charging load.
+@MMU-MEL-2100-2-M1: Elevator #1 electrical load
+@MMU-MEL-2100-2-M2: Elevator #1 electrical load
+@MMU-MEL-2100-2-M3: Fire alarm system electrical load
+@MMU-MEL-2100-2-M4: Submeter of @MMU-MEL-2100-1-M3. Interior lighting loads for all floors.
+@MMU-MEL-ACCII-PV-Export-15-minutely: Exported energy from PV
+@MMU-MEL-ACCII-PV-Import-15-minutely: Imported energy from PV
+@MMU-MRM-2100-3-M1: Condensing unit #1 for DHW Hydrokits energy load
+@MMU-MRM-2100-3-M2: Condensing unit #1 for DHW Hydrokits energy load
+@MMU-MRM-2100-3-M3: DHW Recirculation pump energy load
+@MMU-MRM-2100-3-M4: Pumps for DHW system energy load
+@MMU-MRM-2100-3-M5: Energy load for half of the DHW Hydrokits
+@MMU-MRM-2100-3-M6: Energy load for other half of the DHW Hydrokits
