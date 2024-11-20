@@ -1,0 +1,354 @@
+id:@BCR8_EVOLVE, site, dis:EVOLVE_site, geoAddr:3518 Wesbrook Mall. Vancouver BC. V6S0M2, geoCity:Vancouver, geoCountry:Canada, geoPostalCode:V6S0M2, tz:Vancouver,
+id:@BCR8_foundation, siteRef:@BCR8_EVOLVE, space
+id:@BCR8_parkade, siteRef:@BCR8_EVOLVE, space, floorNum:-1
+id:@BCR8_lobby, siteRef:@BCR8_EVOLVE, space, floorNum:1
+id:@BCR8_elev_control_room, siteRef:@BCR8_EVOLVE, space, floorNum:7
+id:@BCR8_roof, siteRef:@BCR8_EVOLVE, space, floorNum:7
+id:@BCR8_roof_mech_room, siteRef:@BCR8_EVOLVE, space, floorNum:7
+id:@BCR8_storage_room, siteRef:@BCR8_EVOLVE, space, floorNum:-1
+id:@BCR8_water_entry_room, siteRef:@BCR8_EVOLVE, space, floorNum:-1
+id:@BCR8_refuse_recycling_room, siteRef:@BCR8_EVOLVE, space, floorNum:-1
+id:@BCR8_janitor_room, siteRef:@BCR8_EVOLVE, space, floorNum:-1
+id:@BCR8_comm_room, siteRef:@BCR8_EVOLVE, space, floorNum:-1
+id:@BCR8_hv_elec_room, siteRef:@BCR8_EVOLVE, space, floorNum:-1
+
+id:@BCR8_weather_station, equip, weatherStation, spaceRef:@BCR8_roof
+
+id:@BCR8_HRV_N, equip, hvac, spaceRef:@BCR8_roof, manufacturer:Swegon, model:RX-50
+id:@BCR8_HRV_S, equip, hvac, spaceRef:@BCR8_roof, dis:combined_HRV_S_1_and_2
+id:@BCR8_HRV_S_1, equip, hvac, spaceRef:@BCR8_roof, airRef:@BCR8_HRV_S, manufacturer:Swegon, model:RX-25T
+id:@BCR8_HRV_S_2, equip, hvac, spaceRef:@BCR8_roof, airRef:@BCR8_HRV_S, manufacturer:Swegon, model:RX-25T
+
+id:@BCR8_hydrokits, equip, hvac, heatPump, dis:general_collective_heatpumps_ref
+id:@BCR8_hydrokit_1, spaceRef:@BCR8_roof_mech_room, equip, equipRef:@BCR8_hydrokits, hvac, heatPump, manufacturer:LG, model:ARNH763K3B2
+id:@BCR8_hydrokit_2, spaceRef:@BCR8_roof_mech_room, equip, equipRef:@BCR8_hydrokits, hvac, heatPump, manufacturer:LG, model:ARNH763K3B2
+id:@BCR8_hydrokit_3, spaceRef:@BCR8_roof_mech_room, equip, equipRef:@BCR8_hydrokits, hvac, heatPump, manufacturer:LG, model:ARNH763K3B2
+id:@BCR8_hydrokit_4, spaceRef:@BCR8_roof_mech_room, equip, equipRef:@BCR8_hydrokits, hvac, heatPump, manufacturer:LG, model:ARNH763K3B2
+id:@BCR8_hydrokit_5, spaceRef:@BCR8_roof_mech_room, equip, equipRef:@BCR8_hydrokits, hvac, heatPump, manufacturer:LG, model:ARNH763K3B2
+id:@BCR8_hydrokit_6, spaceRef:@BCR8_roof_mech_room, equip, equipRef:@BCR8_hydrokits, hvac, heatPump, manufacturer:LG, model:ARNH763K3B2
+id:@BCR8_hydrokit_7, spaceRef:@BCR8_roof_mech_room, equip, equipRef:@BCR8_hydrokits, hvac, heatPump, manufacturer:LG, model:ARNH763K3B2
+id:@BCR8_hydrokit_8, spaceRef:@BCR8_roof_mech_room, equip, equipRef:@BCR8_hydrokits, hvac, heatPump, manufacturer:LG, model:ARNH763K3B2
+
+id:@BCR8_pump_1, dis:DHW_recirc_pump, spaceRef:@BCR8_roof_mech_room, equip, hvac, water, pump, manufacturer:Armstrong, model:Series Sensorless 4380 1504-001.0
+id:@BCR8_pump_23, dis:combined_DHW_pump, spaceRef:@BCR8_roof_mech_room, equip, hvac, water, pump
+id:@BCR8_pump_2, dis:DHW_pump, spaceRef:@BCR8_roof_mech_room, equip, hvac, water, pump, manufacturer:Armstrong, model:Series Sensorless 4380 1504-001.0
+id:@BCR8_pump_3, dis:DHW_pump, spaceRef:@BCR8_roof_mech_room, equip, hvac, water, pump, manufacturer:Armstrong, model:Series Sensorless 4380 1504-001.0
+id:@BCR8_pump_hydrokits,spaceRef:@BCR8_roof_mech_room, equip, hvac, water, pump, dis:combined_circulation_pump
+id:@BCR8_pump_4, dis:DHW_variable_circuliation_pump, spaceRef:@BCR8_roof_mech_room, equip, hvac, water, pump, manufacturer:Armstrong, model:Series H-H53-0.5 HP
+id:@BCR8_pump_5, dis:hydrokit_circulation_pump, spaceRef:@BCR8_roof_mech_room, equip, hvac, water, pump, manufacturer:Armstrong, model:Series Astro 280CI
+id:@BCR8_pump_6, dis:hydrokit_circulation_pump, spaceRef:@BCR8_roof_mech_room, equip, hvac, water, pump, manufacturer:Armstrong, model:Series Astro 280CI
+id:@BCR8_pump_7, dis:hydrokit_circulation_pump, spaceRef:@BCR8_roof_mech_room, equip, hvac, water, pump, manufacturer:Armstrong, model:Series Astro 280CI
+id:@BCR8_pump_8, dis:hydrokit_circulation_pump, spaceRef:@BCR8_roof_mech_room, equip, hvac, water, pump, manufacturer:Armstrong, model:Series Astro 280CI
+id:@BCR8_pump_9, dis:hydrokit_circulation_pump, spaceRef:@BCR8_roof_mech_room, equip, hvac, water, pump, manufacturer:Armstrong, model:Series Astro 280CI
+id:@BCR8_pump_10, dis:hydrokit_circulation_pump, spaceRef:@BCR8_roof_mech_room, equip, hvac, water, pump, manufacturer:Armstrong, model:Series Astro 280CI
+id:@BCR8_pump_11, dis:hydrokit_circulation_pump, spaceRef:@BCR8_roof_mech_room, equip, hvac, water, pump, manufacturer:Armstrong, model:Series Astro 280CI
+
+id:@BCR8_sump_1, dis:storm_sump_1, spaceRef:@BCR8_parkade, equip, water, pump, manufacturer:Zoeller, model:J294
+id:@BCR8_sump_2, dis:storm_sump_2, spaceRef:@BCR8_parkade, equip, water, pump, manufacturer:Zoeller, model:J294
+id:@BCR8_sump_3, dis:sanitary_sump_1, spaceRef:@BCR8_foundation, equip, water, pump, manufacturer:Zoeller, model:N267
+id:@BCR8_sump_4, dis:sanitary_sump_2, spaceRef:@BCR8_foundation, equip, water, pump, manufacturer:Zoeller, model:N267
+
+id:@BCR8_EF_P1_A, spaceRef:@BCR8_parkade, equip, fan, exhaust, type:axial, manufacturer:greenheck, model:ax-63-160-0632-a50
+id:@BCR8_EF_P1_B, spaceRef:@BCR8_parkade, equip, fan, exhaust, type:axial, manufacturer:greenheck, model:ax-72-190-0426-a50
+id:@BCR8_EF_1, spaceRef:@BCR8_storage_room, equip, fan, exhaust, type:inline, manufacturer:greenheck, model:sq-95-vg
+id:@BCR8_EF_2, spaceRef:@BCR8_storage_room, equip, fan, exhaust, type:inline, manufacturer:greenheck, model:sq-80-vg
+id:@BCR8_EF_3, spaceRef:@BCR8_water_entry_room, equip, fan, exhaust, type:inline, manufacturer:greenheck, model:sq-60-vg
+id:@BCR8_EF_4, spaceRef:@BCR8_refuse_recycling_room, equip, fan, exhaust, type:inline, manufacturer:greenheck, model:sq-90-vg
+id:@BCR8_EF_5, spaceRef:@BCR8_janitor_room, equip, fan, exhaust, type:inline, manufacturer:greenheck, model:sq-60-vg
+id:@BCR8_SF_1, spaceRef:@BCR8_roof_mech_room, equip, fan, supply, type:inline, manufacturer:greenheck, model:sq-80-vg
+id:@BCR8_SF_2, spaceRef:@BCR8_parkade, equip, fan, supply, type:inline, manufacturer:greenheck, model:sq-100-vg, dis:vestibule_pressurization
+
+id:@BCR8_DH_1, spaceRef:@BCR8_parkade, equip, heatingCoil, manufacturer:thermolec, model:MSC0-10LS-0002-0000, dis:vestibule_supply_air
+id:@BCR8_EH_1, fanRef:@BCR8_SF_1, equip, elecHeating, type:ceiling_hung, manufacturer:ouellet, model:OHVU03008AM
+id:@BCR8_FFH_1, spaceRef:@BCR8_lobby, equip, elecHeating, type:wall_hung, manufacturer:ouellet, model:OAC01502-T
+
+id:@BCR8_heat_trace_1, equip, elecHeating, manufacturer:raychem, model:5XL2-CR, dis:DCW_main
+id:@BCR8_heat_trace_2, equip, elecHeating, manufacturer:raychem, model:5XL2-CR, dis:DHW_janitor_sink
+id:@BCR8_heat_trace_3, equip, elecHeating, manufacturer:raychem, model:5XL2-CR, dis:DCW_hose_bibs_irrigation
+
+id:@DHWST_1, spaceRef:@BCR8_roof_mech_room, equip, hot, water, tank, manufacturer:ao_smith, model:hd*28-200A
+id:@DHWST_2, spaceRef:@BCR8_roof_mech_room, equip, hot, water, tank, manufacturer:ao_smith, model:hd*28-200A
+
+id:@BCR8_HX_1, spaceRef:@BCR8_roof_mech_room, equip, water, heatExchanger, manufacturer:armstrong, model:ABD055-80M-NP8
+id:@BCR8_HX_2, spaceRef:@BCR8_roof_mech_room, equip, water, heatExchanger, manufacturer:armstrong, model:ABD055-80M-NP8
+
+id:@CU_1, equip, condenser, spaceRef:@BCR8_roof, equipRef:@BCR8_hydrokits, manufacturer:LG, model:ARUM312BTE5, type:multi_v_5_dual_frame
+id:@CU_2, equip, condenser, spaceRef:@BCR8_roof, equipRef:@BCR8_hydrokits, manufacturer:LG, model:ARUM312BTE5, type:multi_v_5_dual_frame
+id:@AC_3a, equip, evaporator, spaceRef:@BCR8_parkade, manufacturer:LG, model:ARNU763B8A4, type:VRF
+id:@AC_3b, equip, evaporator, spaceRef:@BCR8_parkade, manufacturer:LG, model:ARNU763B8A4, type:VRF
+id:@CU_3, equip, condenser, airRef:@AC_3a, manufacturer:LG, model:ARUM192BTE5
+id:@AC_4, equip, evaporator, spaceRef:@BCR8_parkade, manufacturer:LG, model:LDN127HV4, type:split_DX
+id:@CU_4, equip, condenser, airRef:@AC_4, manufacturer:LG, model:LUU127HV
+id:@AC_5, equip, evaporator, spaceRef:@BCR8_lobby, manufacturer:LG, model:LDN097HV4, type:heat_pump
+id:@CU_5, equip, condenser, airRef:@AC_5, manufacturer:LG, model:LUU097HV, type:split_DX
+id:@AC_6, equip, evaporator, spaceRef:@BCR8_lobby, manufacturer:LG, model:LDN097HV4, type:heat_pump
+id:@CU_6, equip, condenser, airRef:@AC_6, manufacturer:LG, model:LUU097HV, type:split_DX
+id:@AC_7, equip, evaporator, spaceRef:@BCR8_elev_control_room, manufacturer:LG, model:LSN180HSV5, type:split_DX
+id:@CU_7, equip, condenser, airRef:@AC_7, manufacturer:LG, model:LSU180HSV5, type:split_DX
+id:@CU_8, equip, condenser, spaceRef:@BCR8_roof, manufacturer:LG, model:ARUN965BTE4, type:heat_pump
+id:@CU_9, equip, condenser, airRef:@BCR8_HRV_N, spaceRef:@BCR8_roof, dis:combined_CU9
+id:@CU_9a, equip, condenser, airRef:@BCR8_HRV_S_1, spaceRef:@BCR8_roof, manufacturer:LG, model:ARUN060GSS4, type:heat_pump
+id:@CU_9b, equip, condenser, airRef:@BCR8_HRV_S_2, spaceRef:@BCR8_roof, manufacturer:LG, model:ARUN060GSS4, type:heat_pump
+
+id:@7ae7320c13_suite, space, floorNum:1, bed_count:three_or_more, area:{min:920, max:1172, kind:Number, unit:square_foot}
+id:@07607418d9_suite, space, floorNum:1, bed_count:two_plus_den, area:{min:915, max:915, kind:Number, unit:square_foot}
+id:@32ac5be2e7_suite, space, floorNum:1, bed_count:two_plus_den, area:{min:915, max:915, kind:Number, unit:square_foot}
+id:@e9ef2f5db3_suite, space, floorNum:1, bed_count:three_or_more, area:{min:920, max:1172, kind:Number, unit:square_foot}
+id:@3d824530af_suite, space, floorNum:1, bed_count:three_or_more, area:{min:920, max:1172, kind:Number, unit:square_foot}
+id:@47e99858e7_suite, space, floorNum:1, bed_count:three_or_more, area:{min:920, max:1172, kind:Number, unit:square_foot}
+id:@4a32fc8f42_suite, space, floorNum:1, bed_count:two_plus_den, area:{min:915, max:915, kind:Number, unit:square_foot}
+id:@c127784dbc_suite, space, floorNum:1, bed_count:one_or_studio, area:{min:462, max: 625, kind:Number, unit:square_foot}
+id:@622cb68249_suite, space, floorNum:1, bed_count:one_or_studio, area:{min:462, max: 625, kind:Number, unit:square_foot}
+id:@c99787e33f_suite, space, floorNum:1, bed_count:three_or_more, area:{min:920, max:1172, kind:Number, unit:square_foot}
+id:@be4c8c8da9_suite, space, floorNum:1, bed_count:one_or_studio, area:{min:462, max: 625, kind:Number, unit:square_foot}
+id:@0ae0db5546_suite, space, floorNum:1, bed_count:one_or_studio, area:{min:462, max: 625, kind:Number, unit:square_foot}, dis:guest_suite
+id:@c3c4ca4d88_suite, space, floorNum:1, bed_count:two_plus_den, area:{min:915, max:915, kind:Number, unit:square_foot}
+id:@e7e5895d93_suite, space, floorNum:1, bed_count:two_plus_den, area:{min:915, max:915, kind:Number, unit:square_foot}
+id:@df6df27a75_suite, space, floorNum:1, bed_count:one_or_studio, area:{min:462, max: 625, kind:Number, unit:square_foot}
+id:@6693483a37_suite, space, floorNum:1, bed_count:one_or_studio, area:{min:462, max: 625, kind:Number, unit:square_foot}
+id:@5ff2c7a276_suite, space, floorNum:1, bed_count:two_plus_den, area:{min:915, max:915, kind:Number, unit:square_foot}
+id:@BCR8_lvl1_corr_121_north, space, floorNum:1
+id:@BCR8_lvl1_corr_120_south, space, floorNum:1
+
+id:@7ae7320c13_RDP, spaceRef:@7ae7320c13_suite; airRef:@BCR8_HRV_S; bed_count:three_or_more; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@07607418d9_RDP, spaceRef:@07607418d9_suite; airRef:@BCR8_HRV_S; bed_count:two_plus_den; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@32ac5be2e7_RDP, spaceRef:@32ac5be2e7_suite; airRef:@BCR8_HRV_N; bed_count:two_plus_den; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@e9ef2f5db3_RDP, spaceRef:@e9ef2f5db3_suite; airRef:@BCR8_HRV_N; bed_count:three_or_more; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@3d824530af_RDP, spaceRef:@3d824530af_suite; airRef:@BCR8_HRV_N; bed_count:three_or_more; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@47e99858e7_RDP, spaceRef:@47e99858e7_suite; airRef:@BCR8_HRV_S; bed_count:three_or_more; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@4a32fc8f42_RDP, spaceRef:@4a32fc8f42_suite; airRef:@BCR8_HRV_S; bed_count:two_plus_den; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@c127784dbc_RDP, spaceRef:@c127784dbc_suite; airRef:@BCR8_HRV_S; bed_count:one_or_studio; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:125
+id:@622cb68249_RDP, spaceRef:@622cb68249_suite; airRef:@BCR8_HRV_N; bed_count:one_or_studio; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:125
+id:@c99787e33f_RDP, spaceRef:@c99787e33f_suite; airRef:@BCR8_HRV_N; bed_count:three_or_more; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@be4c8c8da9_RDP, spaceRef:@be4c8c8da9_suite; airRef:@BCR8_HRV_S; bed_count:one_or_studio; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:125
+id:@0ae0db5546_RDP, spaceRef:@0ae0db5546_suite; airRef:@BCR8_HRV_N; bed_count:one_or_studio; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:125
+id:@c3c4ca4d88_RDP, spaceRef:@c3c4ca4d88_suite; airRef:@BCR8_HRV_S; bed_count:two_plus_den; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@e7e5895d93_RDP, spaceRef:@e7e5895d93_suite; airRef:@BCR8_HRV_N; bed_count:two_plus_den; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@df6df27a75_RDP, spaceRef:@df6df27a75_suite; airRef:@BCR8_HRV_S; bed_count:one_or_studio; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:125
+id:@6693483a37_RDP, spaceRef:@6693483a37_suite; airRef:@BCR8_HRV_N; bed_count:one_or_studio; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:125
+id:@5ff2c7a276_RDP, spaceRef:@5ff2c7a276_suite; airRef:@BCR8_HRV_S; bed_count:two_plus_den; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@BCR8_RDP_lvl1_corr_121_north, spaceRef:@BCR8_lvl1_corr_121_north; airRef:@BCR8_HRV_N; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:100
+id:@BCR8_RDP_lvl1_corr_120_south, spaceRef:@BCR8_lvl1_corr_120_south; airRef:@BCR8_HRV_S; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:100
+id:@BCR8_RDP_lobby, spaceRef:@BCR8_lobby; airRef:@BCR8_HRV_S; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:125
+
+
+id:@6c93d6f087_suite, space, floorNum:2, bed_count:two_plus_den, area:{min:915, max:915, kind:Number, unit:square_foot}
+id:@f64bebabd8_suite, space, floorNum:2, bed_count:three_or_more, area:{min:920, max:1172, kind:Number, unit:square_foot}
+id:@1c328456d6_suite, space, floorNum:2, bed_count:three_or_more, area:{min:920, max:1172, kind:Number, unit:square_foot}
+id:@0ac66d5c48_suite, space, floorNum:2, bed_count:one_or_studio, area:{min:462, max:625, kind:Number, unit:square_foot}
+id:@ca921dd38a_suite, space, floorNum:2, bed_count:two_plus_den, area:{min:915, max:915, kind:Number, unit:square_foot}
+id:@93a3b2afe2_suite, space, floorNum:2, bed_count:three_or_more, area:{min:920, max:1172, kind:Number, unit:square_foot}
+id:@c4eff2b30e_suite, space, floorNum:2, bed_count:two_plus_den, area:{min:915, max:915, kind:Number, unit:square_foot}
+id:@d2751ef7f5_suite, space, floorNum:2, bed_count:two_plus_den, area:{min:915, max:915, kind:Number, unit:square_foot}
+id:@eeec670be5_suite, space, floorNum:2, bed_count:one_or_studio, area:{min:462, max:625, kind:Number, unit:square_foot}
+id:@ee3c572619_suite, space, floorNum:2, bed_count:one_or_studio, area:{min:462, max:625, kind:Number, unit:square_foot}
+id:@f4dfc289d3_suite, space, floorNum:2, bed_count:one_or_studio, area:{min:462, max:625, kind:Number, unit:square_foot}
+id:@90bc55ac95_suite, space, floorNum:2, bed_count:one_or_studio, area:{min:462, max:625, kind:Number, unit:square_foot}
+id:@a199275171_suite, space, floorNum:2, bed_count:one_or_studio, area:{min:462, max:625, kind:Number, unit:square_foot}
+id:@6497b830e9_suite, space, floorNum:2, bed_count:three_or_more, area:{min:920, max:1172, kind:Number, unit:square_foot}
+id:@4a554f34f7_suite, space, floorNum:2, bed_count:three_or_more, area:{min:920, max:1172, kind:Number, unit:square_foot}
+id:@726c163d61_suite, space, floorNum:2, bed_count:one_or_studio, area:{min:462, max:625, kind:Number, unit:square_foot}
+id:@17d225bcee_suite, space, floorNum:2, bed_count:two_plus_den, area:{min:915, max:915, kind:Number, unit:square_foot}
+id:@7619f20181_suite, space, floorNum:2, bed_count:two_plus_den, area:{min:915, max:915, kind:Number, unit:square_foot}
+id:@BCR8_lvl2_corr_north, space, floorNum:2
+id:@BCR8_lvl2_corr_south, space, floorNum:2
+
+id:@6c93d6f087_RDP, spaceRef:@6c93d6f087_suite; airRef:@BCR8_HRV_N; bed_count:two_plus_den; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@f64bebabd8_RDP, spaceRef:@f64bebabd8_suite; airRef:@BCR8_HRV_N; bed_count:three_or_more; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@1c328456d6_RDP, spaceRef:@1c328456d6_suite; airRef:@BCR8_HRV_S; bed_count:three_or_more; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@0ac66d5c48_RDP, spaceRef:@0ac66d5c48_suite; airRef:@BCR8_HRV_N; bed_count:one_or_studio; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:125
+id:@ca921dd38a_RDP, spaceRef:@ca921dd38a_suite; airRef:@BCR8_HRV_S; bed_count:two_plus_den; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@93a3b2afe2_RDP, spaceRef:@93a3b2afe2_suite; airRef:@BCR8_HRV_N; bed_count:three_or_more; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@c4eff2b30e_RDP, spaceRef:@c4eff2b30e_suite; airRef:@BCR8_HRV_S; bed_count:two_plus_den; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@d2751ef7f5_RDP, spaceRef:@d2751ef7f5_suite; airRef:@BCR8_HRV_N; bed_count:two_plus_den; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@eeec670be5_RDP, spaceRef:@eeec670be5_suite; airRef:@BCR8_HRV_S; bed_count:one_or_studio; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:100
+id:@ee3c572619_RDP, spaceRef:@ee3c572619_suite; airRef:@BCR8_HRV_N; bed_count:one_or_studio; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:125
+id:@f4dfc289d3_RDP, spaceRef:@f4dfc289d3_suite; airRef:@BCR8_HRV_S; bed_count:one_or_studio; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:125
+id:@90bc55ac95_RDP, spaceRef:@90bc55ac95_suite; airRef:@BCR8_HRV_S; bed_count:one_or_studio; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:125
+id:@a199275171_RDP, spaceRef:@a199275171_suite; airRef:@BCR8_HRV_N; bed_count:one_or_studio; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:125
+id:@6497b830e9_RDP, spaceRef:@6497b830e9_suite; airRef:@BCR8_HRV_S; bed_count:three_or_more; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@4a554f34f7_RDP, spaceRef:@4a554f34f7_suite; airRef:@BCR8_HRV_N; bed_count:three_or_more; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@726c163d61_RDP, spaceRef:@726c163d61_suite; airRef:@BCR8_HRV_S; bed_count:one_or_studio; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:125
+id:@17d225bcee_RDP, spaceRef:@17d225bcee_suite; airRef:@BCR8_HRV_S; bed_count:two_plus_den; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:125
+id:@7619f20181_RDP, spaceRef:@7619f20181_suite; airRef:@BCR8_HRV_S; bed_count:two_plus_den; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@BCR8_RDP_lvl2_corr_north, spaceRef:@BCR8_lvl2_corr_north; airRef:@BCR8_HRV_N; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:100
+id:@BCR8_RDP_lvl2_corr_south, spaceRef:@BCR8_lvl2_corr_south; airRef:@BCR8_HRV_S; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:100
+
+id:@d8d0f2d4f5_suite, space, floorNum:3, bed_count:three_or_more, area:{min:920, max:1172, kind:Number, unit:square_foot}
+id:@aea4207b80_suite, space, floorNum:3, bed_count:three_or_more, area:{min:920, max:1172, kind:Number, unit:square_foot}
+id:@2c2cc55f0c_suite, space, floorNum:3, bed_count:two_plus_den, area:{min:915, max:915, kind:Number, unit:square_foot}
+id:@598ea56d5d_suite, space, floorNum:3, bed_count:two_plus_den, area:{min:915, max:915, kind:Number, unit:square_foot}
+id:@e69f752504_suite, space, floorNum:3, bed_count:one_or_studio, area:{min:462, max:625, kind:Number, unit:square_foot}
+id:@c4c4f03694_suite, space, floorNum:3, bed_count:one_or_studio, area:{min:462, max:625, kind:Number, unit:square_foot}
+id:@390af4dfcf_suite, space, floorNum:3, bed_count:one_or_studio, area:{min:462, max:625, kind:Number, unit:square_foot}
+id:@ce76336a56_suite, space, floorNum:3, bed_count:two_plus_den, area:{min:915, max:915, kind:Number, unit:square_foot}
+id:@4ec9b35267_suite, space, floorNum:3, bed_count:two_plus_den, area:{min:915, max:915, kind:Number, unit:square_foot}
+id:@e017115420_suite, space, floorNum:3, bed_count:three_or_more, area:{min:920, max:1172, kind:Number, unit:square_foot}
+id:@6dce1f4f88_suite, space, floorNum:3, bed_count:one_or_studio, area:{min:462, max:625, kind:Number, unit:square_foot}
+id:@11c538f471_suite, space, floorNum:3, bed_count:three_or_more, area:{min:920, max:1172, kind:Number, unit:square_foot}
+id:@fba83eb9cf_suite, space, floorNum:3, bed_count:one_or_studio, area:{min:462, max:625, kind:Number, unit:square_foot}
+id:@e19f689ff3_suite, space, floorNum:3, bed_count:one_or_studio, area:{min:462, max:625, kind:Number, unit:square_foot}
+id:@27610b1b9b_suite, space, floorNum:3, bed_count:one_or_studio, area:{min:462, max:625, kind:Number, unit:square_foot}
+id:@ca5dd537d6_suite, space, floorNum:3, bed_count:three_or_more, area:{min:920, max:1172, kind:Number, unit:square_foot}
+id:@29aa28635b_suite, space, floorNum:3, bed_count:one_or_studio, area:{min:462, max:625, kind:Number, unit:square_foot}
+id:@7ad287c9ab_suite, space, floorNum:3, bed_count:two_plus_den, area:{min:915, max:915, kind:Number, unit:square_foot}
+id:@87ab5d099a_suite, space, floorNum:3, bed_count:two_plus_den, area:{min:915, max:915, kind:Number, unit:square_foot}
+id:@BCR8_lvl3_corr_north, space, floorNum:3
+id:@BCR8_lvl3_corr_south, space, floorNum:3
+
+id:@d8d0f2d4f5_RDP, spaceRef:@d8d0f2d4f5_suite; airRef:@BCR8_HRV_N; bed_count:three_or_more; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@aea4207b80_RDP, spaceRef:@aea4207b80_suite; airRef:@BCR8_HRV_S; bed_count:three_or_more; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@2c2cc55f0c_RDP, spaceRef:@2c2cc55f0c_suite; airRef:@BCR8_HRV_N; bed_count:two_plus_den; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@598ea56d5d_RDP, spaceRef:@598ea56d5d_suite; airRef:@BCR8_HRV_N; bed_count:two_plus_den; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@e69f752504_RDP, spaceRef:@e69f752504_suite; airRef:@BCR8_HRV_N; bed_count:one_or_studio; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:125
+id:@c4c4f03694_RDP, spaceRef:@c4c4f03694_suite; airRef:@BCR8_HRV_S; bed_count:one_or_studio; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:100
+id:@390af4dfcf_RDP, spaceRef:@390af4dfcf_suite; airRef:@BCR8_HRV_N; bed_count:one_or_studio; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:125
+id:@ce76336a56_RDP, spaceRef:@ce76336a56_suite; airRef:@BCR8_HRV_S; bed_count:two_plus_den; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@4ec9b35267_RDP, spaceRef:@4ec9b35267_suite; airRef:@BCR8_HRV_S; bed_count:two_plus_den; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@e017115420_RDP, spaceRef:@e017115420_suite; airRef:@BCR8_HRV_S; bed_count:three_or_more; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@6dce1f4f88_RDP, spaceRef:@6dce1f4f88_suite; airRef:@BCR8_HRV_S; bed_count:one_or_studio; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:100
+id:@11c538f471_RDP, spaceRef:@11c538f471_suite; airRef:@BCR8_HRV_N; bed_count:three_or_more; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@fba83eb9cf_RDP, spaceRef:@fba83eb9cf_suite; airRef:@BCR8_HRV_S; bed_count:one_or_studio; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:125
+id:@e19f689ff3_RDP, spaceRef:@e19f689ff3_suite; airRef:@BCR8_HRV_S; bed_count:one_or_studio; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:125
+id:@27610b1b9b_RDP, spaceRef:@27610b1b9b_suite; airRef:@BCR8_HRV_N; bed_count:one_or_studio; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:125
+id:@ca5dd537d6_RDP, spaceRef:@ca5dd537d6_suite; airRef:@BCR8_HRV_N; bed_count:three_or_more; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@29aa28635b_RDP, spaceRef:@29aa28635b_suite; airRef:@BCR8_HRV_S; bed_count:one_or_studio; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:125
+id:@7ad287c9ab_RDP, spaceRef:@7ad287c9ab_suite; airRef:@BCR8_HRV_S; bed_count:two_plus_den; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:125
+id:@87ab5d099a_RDP, spaceRef:@87ab5d099a_suite; airRef:@BCR8_HRV_S; bed_count:two_plus_den; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@BCR8_RDP_lvl3_corr_north, spaceRef:@BCR8_lvl3_corr_north; airRef:@BCR8_HRV_N; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:100
+id:@BCR8_RDP_lvl3_corr_south, spaceRef:@BCR8_lvl3_corr_north; airRef:@BCR8_HRV_S; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:100
+
+
+id:@db30336ee8_suite, space, floorNum:4, bed_count:three_or_more, area:{min:920, max:1172, kind:Number, unit:square_foot}
+id:@1f720bdc4b_suite, space, floorNum:4, bed_count:three_or_more, area:{min:920, max:1172, kind:Number, unit:square_foot}
+id:@e2caaa41dd_suite, space, floorNum:4, bed_count:two_plus_den, area:{min:915, max:915, kind:Number, unit:square_foot}
+id:@6ccd7c9989_suite, space, floorNum:4, bed_count:two_plus_den, area:{min:915, max:915, kind:Number, unit:square_foot}
+id:@b15971ccf8_suite, space, floorNum:4, bed_count:one_or_studio, area:{min:462, max:625, kind:Number, unit:square_foot}
+id:@a28e4c949d_suite, space, floorNum:4, bed_count:one_or_studio, area:{min:462, max:625, kind:Number, unit:square_foot}
+id:@6dc64fdfef_suite, space, floorNum:4, bed_count:one_or_studio, area:{min:462, max:625, kind:Number, unit:square_foot}
+id:@8a227e1ea1_suite, space, floorNum:4, bed_count:two_plus_den, area:{min:915, max:915, kind:Number, unit:square_foot}
+id:@d2cbc0aed8_suite, space, floorNum:4, bed_count:two_plus_den, area:{min:915, max:915, kind:Number, unit:square_foot}
+id:@c3587a4a37_suite, space, floorNum:4, bed_count:three_or_more, area:{min:920, max:1172, kind:Number, unit:square_foot}
+id:@7491e68deb_suite, space, floorNum:4, bed_count:one_or_studio, area:{min:462, max:625, kind:Number, unit:square_foot}
+id:@1d494e7421_suite, space, floorNum:4, bed_count:three_or_more, area:{min:920, max:1172, kind:Number, unit:square_foot}
+id:@825c03c7d2_suite, space, floorNum:4, bed_count:one_or_studio, area:{min:462, max:625, kind:Number, unit:square_foot}
+id:@01236b7618_suite, space, floorNum:4, bed_count:one_or_studio, area:{min:462, max:625, kind:Number, unit:square_foot}
+id:@894d6410f6_suite, space, floorNum:4, bed_count:one_or_studio, area:{min:462, max:625, kind:Number, unit:square_foot}
+id:@dfd1837450_suite, space, floorNum:4, bed_count:three_or_more, area:{min:920, max:1172, kind:Number, unit:square_foot}
+id:@cfed54a4b8_suite, space, floorNum:4, bed_count:one_or_studio, area:{min:462, max:625, kind:Number, unit:square_foot}
+id:@646fc92723_suite, space, floorNum:4, bed_count:two_plus_den, area:{min:915, max:915, kind:Number, unit:square_foot}
+id:@b70021ce4d_suite, space, floorNum:4, bed_count:two_plus_den, area:{min:915, max:915, kind:Number, unit:square_foot}
+id:@BCR8_lvl4_corr_north, space, floorNum:4
+id:@BCR8_lvl4_corr_south, space, floorNum:4
+
+id:@db30336ee8_RDP, spaceRef:@db30336ee8_suite; airRef:@BCR8_HRV_N; bed_count:three_or_more; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@1f720bdc4b_RDP, spaceRef:@1f720bdc4b_suite; airRef:@BCR8_HRV_S; bed_count:three_or_more; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@e2caaa41dd_RDP, spaceRef:@e2caaa41dd_suite; airRef:@BCR8_HRV_N; bed_count:two_plus_den; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@6ccd7c9989_RDP, spaceRef:@6ccd7c9989_suite; airRef:@BCR8_HRV_N; bed_count:two_plus_den; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@b15971ccf8_RDP, spaceRef:@b15971ccf8_suite; airRef:@BCR8_HRV_N; bed_count:one_or_studio; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:125
+id:@a28e4c949d_RDP, spaceRef:@a28e4c949d_suite; airRef:@BCR8_HRV_S; bed_count:one_or_studio; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:100
+id:@6dc64fdfef_RDP, spaceRef:@6dc64fdfef_suite; airRef:@BCR8_HRV_N; bed_count:one_or_studio; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:125
+id:@8a227e1ea1_RDP, spaceRef:@8a227e1ea1_suite; airRef:@BCR8_HRV_S; bed_count:two_plus_den; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@d2cbc0aed8_RDP, spaceRef:@d2cbc0aed8_suite; airRef:@BCR8_HRV_S; bed_count:two_plus_den; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@c3587a4a37_RDP, spaceRef:@c3587a4a37_suite; airRef:@BCR8_HRV_S; bed_count:three_or_more; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@7491e68deb_RDP, spaceRef:@7491e68deb_suite; airRef:@BCR8_HRV_S; bed_count:one_or_studio; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:100
+id:@1d494e7421_RDP, spaceRef:@1d494e7421_suite; airRef:@BCR8_HRV_N; bed_count:three_or_more; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@825c03c7d2_RDP, spaceRef:@825c03c7d2_suite; airRef:@BCR8_HRV_S; bed_count:one_or_studio; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:125
+id:@01236b7618_RDP, spaceRef:@01236b7618_suite; airRef:@BCR8_HRV_S; bed_count:one_or_studio; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:125
+id:@894d6410f6_RDP, spaceRef:@894d6410f6_suite; airRef:@BCR8_HRV_N; bed_count:one_or_studio; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:125
+id:@dfd1837450_RDP, spaceRef:@dfd1837450_suite; airRef:@BCR8_HRV_N; bed_count:three_or_more; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@cfed54a4b8_RDP, spaceRef:@cfed54a4b8_suite; airRef:@BCR8_HRV_S; bed_count:one_or_studio; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:125
+id:@646fc92723_RDP, spaceRef:@646fc92723_suite; airRef:@BCR8_HRV_S; bed_count:two_plus_den; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:125
+id:@b70021ce4d_RDP, spaceRef:@b70021ce4d_suite; airRef:@BCR8_HRV_S; bed_count:two_plus_den; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@BCR8_RDP_lvl4_corr_north, spaceRef:@BCR8_lvl4_corr_north; airRef:@BCR8_HRV_N; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:100
+id:@BCR8_RDP_lvl4_corr_south, spaceRef:@BCR8_lvl4_corr_south; airRef:@BCR8_HRV_S; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:100
+
+
+id:@2f0d213415_suite, space, floorNum:5, bed_count:three_or_more, area:{min:920, max:1172, kind:Number, unit:square_foot}
+id:@53b03569c5_suite, space, floorNum:5, bed_count:three_or_more, area:{min:920, max:1172, kind:Number, unit:square_foot}
+id:@121d9d1e02_suite, space, floorNum:5, bed_count:two_plus_den, area:{min:915, max:915, kind:Number, unit:square_foot}
+id:@f5cef328bc_suite, space, floorNum:5, bed_count:two_plus_den, area:{min:915, max:915, kind:Number, unit:square_foot}
+id:@cf92bea93a_suite, space, floorNum:5, bed_count:one_or_studio, area:{min:462, max:625, kind:Number, unit:square_foot}
+id:@7ee31538af_suite, space, floorNum:5, bed_count:one_or_studio, area:{min:462, max:625, kind:Number, unit:square_foot}
+id:@8e61c4ab83_suite, space, floorNum:5, bed_count:one_or_studio, area:{min:462, max:625, kind:Number, unit:square_foot}
+id:@fb9852345a_suite, space, floorNum:5, bed_count:two_plus_den, area:{min:915, max:915, kind:Number, unit:square_foot}
+id:@3f2279b8ac_suite, space, floorNum:5, bed_count:two_plus_den, area:{min:915, max:915, kind:Number, unit:square_foot}
+id:@cc1f711192_suite, space, floorNum:5, bed_count:three_or_more, area:{min:920, max:1172, kind:Number, unit:square_foot}
+id:@785f7f24e4_suite, space, floorNum:5, bed_count:one_or_studio, area:{min:462, max:625, kind:Number, unit:square_foot}
+id:@06b814bb00_suite, space, floorNum:5, bed_count:three_or_more, area:{min:920, max:1172, kind:Number, unit:square_foot}
+id:@c7ea538a9f_suite, space, floorNum:5, bed_count:one_or_studio, area:{min:462, max:625, kind:Number, unit:square_foot}
+id:@b3047fec6f_suite, space, floorNum:5, bed_count:one_or_studio, area:{min:462, max:625, kind:Number, unit:square_foot}
+id:@7c1774d49a_suite, space, floorNum:5, bed_count:one_or_studio, area:{min:462, max:625, kind:Number, unit:square_foot}
+id:@fb7f42f9c6_suite, space, floorNum:5, bed_count:three_or_more, area:{min:920, max:1172, kind:Number, unit:square_foot}
+id:@d9d5318f66_suite, space, floorNum:5, bed_count:one_or_studio, area:{min:462, max:625, kind:Number, unit:square_foot}
+id:@43e8fb919d_suite, space, floorNum:5, bed_count:two_plus_den, area:{min:915, max:915, kind:Number, unit:square_foot}
+id:@bda17a488d_suite, space, floorNum:5, bed_count:two_plus_den, area:{min:915, max:915, kind:Number, unit:square_foot}
+id:@BCR8_lvl5_corr_north, space, floorNum:5
+id:@BCR8_lvl5_corr_south, space, floorNum:5
+
+id:@2f0d213415_RDP, spaceRef:@2f0d213415_suite; airRef:@BCR8_HRV_N; bed_count:three_or_more; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@53b03569c5_RDP, spaceRef:@53b03569c5_suite; airRef:@BCR8_HRV_S; bed_count:three_or_more; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@121d9d1e02_RDP, spaceRef:@121d9d1e02_suite; airRef:@BCR8_HRV_N; bed_count:two_plus_den; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@f5cef328bc_RDP, spaceRef:@f5cef328bc_suite; airRef:@BCR8_HRV_N; bed_count:two_plus_den; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@cf92bea93a_RDP, spaceRef:@cf92bea93a_suite; airRef:@BCR8_HRV_N; bed_count:one_or_studio; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:125
+id:@7ee31538af_RDP, spaceRef:@7ee31538af_suite; airRef:@BCR8_HRV_S; bed_count:one_or_studio; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:100
+id:@8e61c4ab83_RDP, spaceRef:@8e61c4ab83_suite; airRef:@BCR8_HRV_N; bed_count:one_or_studio; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:125
+id:@fb9852345a_RDP, spaceRef:@fb9852345a_suite; airRef:@BCR8_HRV_S; bed_count:two_plus_den; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@3f2279b8ac_RDP, spaceRef:@3f2279b8ac_suite; airRef:@BCR8_HRV_S; bed_count:two_plus_den; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@cc1f711192_RDP, spaceRef:@cc1f711192_suite; airRef:@BCR8_HRV_S; bed_count:three_or_more; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@785f7f24e4_RDP, spaceRef:@785f7f24e4_suite; airRef:@BCR8_HRV_S; bed_count:one_or_studio; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:125
+id:@06b814bb00_RDP, spaceRef:@06b814bb00_suite; airRef:@BCR8_HRV_N; bed_count:three_or_more; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@c7ea538a9f_RDP, spaceRef:@c7ea538a9f_suite; airRef:@BCR8_HRV_S; bed_count:one_or_studio; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:125
+id:@b3047fec6f_RDP, spaceRef:@b3047fec6f_suite; airRef:@BCR8_HRV_S; bed_count:one_or_studio; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:125
+id:@7c1774d49a_RDP, spaceRef:@7c1774d49a_suite; airRef:@BCR8_HRV_N; bed_count:one_or_studio; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:125
+id:@fb7f42f9c6_RDP, spaceRef:@fb7f42f9c6_suite; airRef:@BCR8_HRV_N; bed_count:three_or_more; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@d9d5318f66_RDP, spaceRef:@d9d5318f66_suite; airRef:@BCR8_HRV_S; bed_count:one_or_studio; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:125
+id:@43e8fb919d_RDP, spaceRef:@43e8fb919d_suite; airRef:@BCR8_HRV_S; bed_count:two_plus_den; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@bda17a488d_RDP, spaceRef:@bda17a488d_suite; airRef:@BCR8_HRV_S; bed_count:two_plus_den; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@BCR8_RDP_lvl5_corr_north, spaceRef:@BCR8_lvl5_corr_north; airRef:@BCR8_HRV_N; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:100
+id:@BCR8_RDP_lvl5_corr_south, spaceRef:@BCR8_lvl5_corr_south; airRef:@BCR8_HRV_S; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:100
+
+id:@fc930394e0_suite, space, floorNum:6, bed_count:three_or_more, area:{min:920, max:1172, kind:Number, unit:square_foot}
+id:@6ec4a5b7e1_suite, space, floorNum:6, bed_count:three_or_more, area:{min:920, max:1172, kind:Number, unit:square_foot}
+id:@5fc66a48ef_suite, space, floorNum:6, bed_count:two_plus_den, area:{min:915, max:915, kind:Number, unit:square_foot}
+id:@a62557bd75_suite, space, floorNum:6, bed_count:two_plus_den, area:{min:915, max:915, kind:Number, unit:square_foot}
+id:@81b7503c05_suite, space, floorNum:6, bed_count:one_or_studio, area:{min:462, max:625, kind:Number, unit:square_foot}
+id:@0e1592c1af_suite, space, floorNum:6, bed_count:one_or_studio, area:{min:462, max:625, kind:Number, unit:square_foot}
+id:@bb6db810f5_suite, space, floorNum:6, bed_count:one_or_studio, area:{min:462, max:625, kind:Number, unit:square_foot}
+id:@8350f767c7_suite, space, floorNum:6, bed_count:two_plus_den, area:{min:915, max:915, kind:Number, unit:square_foot}
+id:@d5d0444473_suite, space, floorNum:6, bed_count:two_plus_den, area:{min:915, max:915, kind:Number, unit:square_foot}
+id:@44e4715699_suite, space, floorNum:6, bed_count:three_or_more, area:{min:920, max:1172, kind:Number, unit:square_foot}
+id:@f0d20e944b_suite, space, floorNum:6, bed_count:one_or_studio, area:{min:462, max:625, kind:Number, unit:square_foot}
+id:@56d607430e_suite, space, floorNum:6, bed_count:three_or_more, area:{min:920, max:1172, kind:Number, unit:square_foot}
+id:@b8f65d02ef_suite, space, floorNum:6, bed_count:one_or_studio, area:{min:462, max:625, kind:Number, unit:square_foot}
+id:@abefaa50fc_suite, space, floorNum:6, bed_count:one_or_studio, area:{min:462, max:625, kind:Number, unit:square_foot}
+id:@024590d55c_suite, space, floorNum:6, bed_count:one_or_studio, area:{min:462, max:625, kind:Number, unit:square_foot}
+id:@67530428bd_suite, space, floorNum:6, bed_count:three_or_more, area:{min:920, max:1172, kind:Number, unit:square_foot}
+id:@17a746a711_suite, space, floorNum:6, bed_count:one_or_studio, area:{min:462, max:625, kind:Number, unit:square_foot}
+id:@fbb6a1808f_suite, space, floorNum:6, bed_count:two_plus_den, area:{min:915, max:915, kind:Number, unit:square_foot}
+id:@36aa486ac0_suite, space, floorNum:6, bed_count:two_plus_den, area:{min:915, max:915, kind:Number, unit:square_foot}
+id:@BCR8_lvl6_corr_north, space, floorNum:6
+id:@BCR8_lvl6_corr_south, space, floorNum:6
+
+id:@fc930394e0_RDP, spaceRef:@fc930394e0_suite; airRef:@BCR8_HRV_N; bed_count:three_or_more; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@6ec4a5b7e1_RDP, spaceRef:@6ec4a5b7e1_suite; airRef:@BCR8_HRV_S; bed_count:three_or_more; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@5fc66a48ef_RDP, spaceRef:@5fc66a48ef_suite; airRef:@BCR8_HRV_N; bed_count:two_plus_den; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@a62557bd75_RDP, spaceRef:@a62557bd75_suite; airRef:@BCR8_HRV_N; bed_count:two_plus_den; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@81b7503c05_RDP, spaceRef:@81b7503c05_suite; airRef:@BCR8_HRV_N; bed_count:one_or_studio; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:125
+id:@0e1592c1af_RDP, spaceRef:@0e1592c1af_suite; airRef:@BCR8_HRV_S; bed_count:one_or_studio; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:100
+id:@bb6db810f5_RDP, spaceRef:@bb6db810f5_suite; airRef:@BCR8_HRV_N; bed_count:one_or_studio; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:125
+id:@8350f767c7_RDP, spaceRef:@8350f767c7_suite; airRef:@BCR8_HRV_S; bed_count:two_plus_den; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@d5d0444473_RDP, spaceRef:@d5d0444473_suite; airRef:@BCR8_HRV_S; bed_count:two_plus_den; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@44e4715699_RDP, spaceRef:@44e4715699_suite; airRef:@BCR8_HRV_S; bed_count:three_or_more; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@f0d20e944b_RDP, spaceRef:@f0d20e944b_suite; airRef:@BCR8_HRV_S; bed_count:one_or_studio; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:125
+id:@56d607430e_RDP, spaceRef:@56d607430e_suite; airRef:@BCR8_HRV_N; bed_count:three_or_more; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@b8f65d02ef_RDP, spaceRef:@b8f65d02ef_suite; airRef:@BCR8_HRV_S; bed_count:one_or_studio; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:125
+id:@abefaa50fc_RDP, spaceRef:@abefaa50fc_suite; airRef:@BCR8_HRV_S; bed_count:one_or_studio; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:125
+id:@024590d55c_RDP, spaceRef:@024590d55c_suite; airRef:@BCR8_HRV_N; bed_count:one_or_studio; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:125
+id:@67530428bd_RDP, spaceRef:@67530428bd_suite; airRef:@BCR8_HRV_N; bed_count:three_or_more; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@17a746a711_RDP, spaceRef:@17a746a711_suite; airRef:@BCR8_HRV_S; bed_count:one_or_studio; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:125
+id:@fbb6a1808f_RDP, spaceRef:@fbb6a1808f_suite; airRef:@BCR8_HRV_S; bed_count:two_plus_den; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@36aa486ac0_RDP, spaceRef:@36aa486ac0_suite; airRef:@BCR8_HRV_S; bed_count:two_plus_den; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:160
+id:@BCR8_RDP_lvl6_corr_north, spaceRef:@BCR8_lvl6_corr_north; airRef:@BCR8_HRV_N; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:100
+id:@BCR8_RDP_lvl6_corr_south, spaceRef:@BCR8_lvl6_corr_south; airRef:@BCR8_HRV_S; equip, hvac, vav, manufacturer:Swegon, model:react, vav_unit_size:100
+
